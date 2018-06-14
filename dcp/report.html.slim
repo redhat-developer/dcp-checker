@@ -1,0 +1,54 @@
+doctype html
+html[ng-app="blinkr"]
+  head
+    meta[http-equiv="Content-Type" content="text/html; charset=UTF-8"]
+    link[href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"]
+    link[href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"]
+    script[src="https://code.jquery.com/jquery-2.1.4.js"]
+    script[src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"]
+    script[src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"]
+    title
+      | Red Hat Developer | DCP-Checker
+    meta[content="width=device-width, initial-scale=1" name="viewport"]
+  body
+    div[ng-controller="ErrorCtrl"]
+      .container
+        h1
+          DCP-Checker
+    p.lead
+      | Broken link checking for Red Hat Developer DCP content.
+    h2
+      ' Total Pages:
+      .label.label-default>
+        | #{total}
+      ' Errors:
+      .label.label-default
+        | #{errors.size}
+      ' Success rate:
+      .label.label-default
+        | #{pass_rate}
+
+    - context.each_with_index do |(content_type, values), index|
+      .panel.panel-danger
+        .panel-heading
+          a> data-toggle="collapse" href="#meta-d-#{index}" id="control-meta-d-#{index}"
+            i.fa.fa-caret-square-o-right>
+          | #{content_type} (#{values.size} total errors)
+          .panel-body.collapse id="meta-d-#{index}"
+            ul.list-group
+            - values.each do |url|
+              li.list-group-item
+                | #{url[:url]}
+
+                a[href="#{url[:url]}" target="_blank"]
+
+                  i.fa.fa-external-link
+
+                  .pull-right.badge
+                    | #{url[:code] if url[:code] > 0} #{url[:message] if url[:message] != 'No error'}
+
+    - if errors.size == 0
+      .panel.panel-success
+        .panel-heading
+          a id='content-type'
+          | No Broken links detected

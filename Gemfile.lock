@@ -1,0 +1,17 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    builder (3.2.3)
+    colorize (0.8.1)
+    rounding (1.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  builder (~> 3.2, >= 3.2.3)
+  colorize
+  rounding
+
+BUNDLED WITH
+   1.16.1
