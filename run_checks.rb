@@ -2,6 +2,7 @@ require_relative 'process-runner'
 require_relative 'dcp/dcp-logger'
 require_relative 'dcp/dcp-crawler'
 require 'fileutils'
+require 'optparse'
 #
 # Execute this script with -h to see the list of available command line options.
 #
@@ -18,7 +19,6 @@ class ExecuteDcpChecks
   #
   def execute_checks(args = [])
     test_configuration = parse_command_line(args)
-
     if test_configuration[:docker]
       run_tests_in_docker(test_configuration)
     else
@@ -32,6 +32,7 @@ class ExecuteDcpChecks
   # Parses the command line supplied to the run-test.rb wrapper script.
   #
   def parse_command_line(args)
+    puts args
     test_configuration = {}
 
     option_parser = OptionParser.new do |opts|
@@ -70,7 +71,7 @@ class ExecuteDcpChecks
     compose_project_name = 'rhd_dcp_checking'
     compose_environment_directory = "#{@test_dir}/environments"
 
-    @logger.info("Launching #{ENV['rhd_test']} testing environment...")
+    @logger.info('Launching dcp-ckecker testing environment...')
     @process_runner.execute!("cd #{compose_environment_directory} && docker-compose -p #{compose_project_name} build")
 
     @logger.info('Test environment up and running. Running dcp checks...')
@@ -88,26 +89,18 @@ class ExecuteDcpChecks
   # Builds dcp broken link checking test command based on given parameters
   #
   def build_test_execution_cmd(test_configuration)
-    test_configuration[:run_tests_command] = "ruby _tests/dcp-checks/dcp-crawler.rb #{test_configuration[:base_url]}"
+    test_configuration[:run_tests_command] = "ruby dcp/dcp-crawler.rb #{test_configuration[:base_url]}"
   end
 
-end
-
-def execute(dcp_query)
-  start = DateTime.now
-  DcpLogger.log.info("Started at #{start}")
-  dcp_query.analyze
-  DcpLogger.log.info(("Total time: #{(DateTime.now.to_time - start.to_time)}"))
-  Kernel.exit(0)
 end
 
 if $PROGRAM_NAME == __FILE__
-  query_url = ARGV[0]
-  if query_url.nil? || query_url.empty?
-    puts 'Please specify the url of the dcp query you wish to test'
+  base_dir = File.dirname(__FILE__)
+  begin
+    run_tests = ExecuteDcpChecks.new(base_dir, ProcessRunner.new)
+    run_tests.execute_checks(ARGV)
+    Kernel.exit(0)
+  rescue
     Kernel.exit(1)
   end
-
-  get_links = DcpCrawler.new(query_url, "#{__dir__}/config/dcp-config.yml")
-  execute(get_links)
 end
