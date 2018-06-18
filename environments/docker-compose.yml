@@ -1,0 +1,7 @@
+version: '2'
+services:
+  rhd_dcp_checks:
+   build: ../
+   volumes:
+    - ../..:/home/rhd-dcp-checker
+   working_dir: /home/rhd-dcp-checker
