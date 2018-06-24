@@ -15,10 +15,10 @@ require_relative 'typhoeus_wrapper'
 class DcpCrawler
   attr_accessor :errors
 
-  def initialize(base_url, config)
+  def initialize(base_url)
     @base_url = base_url
     @max_retrys = 3
-    @config = DcpConfig.new(config).open
+    @config = DcpConfig.new.open
     @logger = DcpLogger.log
   end
 
@@ -103,18 +103,4 @@ class DcpCrawler
     sys_urls
   end
 
-end
-
-def execute(dcp_query)
-  start = DateTime.now
-  DcpLogger.log.info("Started at #{start}")
-  dcp_query.analyze
-  DcpLogger.log.info(("Total time: #{(DateTime.now.to_time - start.to_time)}"))
-  Kernel.exit(0)
-end
-
-if $PROGRAM_NAME == __FILE__
-  query_url = ARGV[0]
-  get_links = DcpCrawler.new(query_url, "#{__dir__}/config/dcp-config.yml")
-  execute(get_links)
 end

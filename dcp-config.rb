@@ -4,14 +4,14 @@ require_relative 'dcp-logger'
 
 class DcpConfig
 
-  def initialize(file)
+  def initialize
     @config = []
-    @file = file
+    @file = 'config/dcp-config.yml'
     @logger = DcpLogger.log
   end
 
   def open
-    # fail('Config file not found') unless File.exist?(@file)
+    fail('Config file not found') unless File.exist?(@file)
     @config = YAML.load(ERB.new(File.read(@file)).result)
   rescue ArgumentError => e
     @logger.warn("Could not parse YAML: #{e.message}")

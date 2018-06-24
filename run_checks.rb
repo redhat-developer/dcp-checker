@@ -1,6 +1,5 @@
-require_relative 'process-runner'
-require_relative 'dcp/dcp-logger'
-require_relative 'dcp/dcp-crawler'
+require_relative 'dcp-logger'
+require_relative 'dcp-crawler'
 require 'fileutils'
 require 'optparse'
 #
@@ -8,9 +7,8 @@ require 'optparse'
 #
 class ExecuteDcpChecks
 
-  def initialize(test_dir, process_runner)
+  def initialize(test_dir)
     @test_dir = test_dir
-    @process_runner = process_runner
     @logger = DcpLogger.log
   end
 
@@ -19,11 +17,15 @@ class ExecuteDcpChecks
   #
   def execute_checks(args = [])
     test_configuration = parse_command_line(args)
+    start = DateTime.now
+    @logger.info("Started at #{start}")
     if test_configuration[:docker]
       run_tests_in_docker(test_configuration)
     else
       run_tests_from_command_line(test_configuration)
     end
+    @logger.info("Total time: #{(DateTime.now.to_time - start.to_time)}")
+    Kernel.exit(0)
   end
 
   private
@@ -32,7 +34,6 @@ class ExecuteDcpChecks
   # Parses the command line supplied to the run-test.rb wrapper script.
   #
   def parse_command_line(args)
-    puts args
     test_configuration = {}
 
     option_parser = OptionParser.new do |opts|
@@ -56,10 +57,8 @@ class ExecuteDcpChecks
     begin
       option_parser.parse!(args)
     rescue OptionParser::InvalidOption => e
-      puts e
       option_parser.parse(%w(-h))
     end
-    build_test_execution_cmd(test_configuration)
     test_configuration
   end
 
@@ -72,24 +71,17 @@ class ExecuteDcpChecks
     compose_environment_directory = "#{@test_dir}/environments"
 
     @logger.info('Launching dcp-ckecker testing environment...')
-    @process_runner.execute!("cd #{compose_environment_directory} && docker-compose -p #{compose_project_name} build")
+    system("cd #{compose_environment_directory} && docker-compose -p #{compose_project_name} build")
 
     @logger.info('Test environment up and running. Running dcp checks...')
-    @process_runner.execute!("cd #{compose_environment_directory} && docker-compose -p #{compose_project_name} run --rm --no-deps rhd_dcp_checks #{test_configuration[:run_tests_command]}")
+    system("cd #{compose_environment_directory} && docker-compose -p #{compose_project_name} run --rm --no-deps rhd_dcp_checks #{DcpCrawler.new(test_configuration[:base_url]).analyze}")
     @logger.info('Completed run of dcp checks')
   end
 
   def run_tests_from_command_line(test_configuration)
     @logger.info('Running dcp checks from the command line...')
-    @process_runner.execute!(test_configuration[:run_tests_command])
+    DcpCrawler.new(test_configuration[:base_url]).analyze
     @logger.info('Completed command line run of dcp checks.')
-  end
-
-  #
-  # Builds dcp broken link checking test command based on given parameters
-  #
-  def build_test_execution_cmd(test_configuration)
-    test_configuration[:run_tests_command] = "ruby dcp/dcp-crawler.rb #{test_configuration[:base_url]}"
   end
 
 end
@@ -97,7 +89,7 @@ end
 if $PROGRAM_NAME == __FILE__
   base_dir = File.dirname(__FILE__)
   begin
-    run_tests = ExecuteDcpChecks.new(base_dir, ProcessRunner.new)
+    run_tests = ExecuteDcpChecks.new(base_dir)
     run_tests.execute_checks(ARGV)
     Kernel.exit(0)
   rescue
