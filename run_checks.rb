@@ -1,6 +1,5 @@
 require_relative 'dcp-logger'
 require_relative 'dcp-crawler'
-require_relative 'process-runner'
 require 'fileutils'
 require 'optparse'
 #
