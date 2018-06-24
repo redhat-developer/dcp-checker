@@ -3,5 +3,5 @@ services:
   rhd_dcp_checks:
    build: ../
    volumes:
-    - ../..:/home/rhd-dcp-checker
+    - ../../:/home/rhd-dcp-checker
    working_dir: /home/rhd-dcp-checker

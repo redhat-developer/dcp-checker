@@ -21,12 +21,12 @@ RUN wget http://rubygems.org/rubygems/rubygems-2.6.13.tgz \
     && rm -rf /tmp/* \
     && echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 
-RUN gem install bundler --version 1.15.4 --no-rdoc --no-ri
+RUN gem install bundler --version 1.16.1 --no-rdoc --no-ri
 
 COPY Gemfile Gemfile.lock ./
 RUN bundle install -j 10
 
-RUN groupadd -g 1000 dcp-checker
-RUN useradd -g dcp-checker -m -s /bin/bash -u 1000 dcp-checker
-USER dcp-checker
-WORKDIR /home/dcp-checks
+RUN groupadd -g 1000 rhd-dcp-checker
+RUN useradd -g rhd-dcp-checker -m -s /bin/bash -u 1000 rhd-dcp-checker
+USER rhd-dcp-checker
+WORKDIR /home/rhd-dcp-checker
