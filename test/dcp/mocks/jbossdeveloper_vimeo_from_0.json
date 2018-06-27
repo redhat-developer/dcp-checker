@@ -1,0 +1,1613 @@
+{
+  "uuid": "43d685e7-af2e-4ac4-8109-71d73a094876",
+  "took": 10,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "failed": 0
+  },
+  "hits": {
+    "total": 348,
+    "max_score": 1.0,
+    "hits": [{
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43715",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1062.0],
+        "sys_url_view": ["https://developers.redhat.com/video/vimeo/78780176"],
+        "thumbnail": ["https://i.vimeocdn.com/video/454298978_200x150.jpg"],
+        "sys_description": ["Description and demonstration of the Role Based Access Control feature that's new in WildFly 8. This first of three videos demonstrates the standard roles under which WildFly 8 administrators can operate."],
+        "sys_created": ["2013-11-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["wildfly swarm", "JBoss"],
+        "target_product": [""],
+        "sys_title": ["Role Based Access Control in WildFly 8 (Part 1 of 3)"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43435",
+      "_score": 1.0,
+      "fields": {
+        "duration": [561.0],
+        "sys_url_view": ["https://developers.redhat.com/video/vimeo/78780176"],
+        "thumbnail": ["https://i.vimeocdn.com/video/482242252_200x150.jpg"],
+        "sys_description": ["For people that are getting started to know Fuse, and wants to get their hands dirty and develop a JBoss Fuse project for the first time. Contains SQL component https://github.com/weimeilin79/homeloan-part2"],
+        "sys_created": ["2014-07-14T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["JBoss Fuse Getting Started Home Loan Demo Part 2"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43425",
+      "_score": 1.0,
+      "fields": {
+        "duration": [628.0],
+        "sys_url_view": ["https://developers.redhat.com/video/vimeo/101265926"],
+        "thumbnail": ["https://i.vimeocdn.com/video/482998160_200x150.jpg"],
+        "sys_description": ["For people that are getting started to know Fuse, and wants to get their hands dirty and develop a JBoss Fuse project for the first time. Contains CXFRS for Restful Endpoint services"],
+        "sys_created": ["2014-07-21T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["JBoss Fuse Getting Started Home Loan Demo Part 4"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43385",
+      "_score": 1.0,
+      "fields": {
+        "duration": [675.0],
+        "sys_url_view": ["https://developers.redhat.com/video/vimeo/100872412"],
+        "thumbnail": ["https://i.vimeocdn.com/video/482502146_200x150.jpg"],
+        "sys_description": ["For people that are getting started to know Fuse, and wants to get their hands dirty and develop a JBoss Fuse project for the first time. Contains SQL component, Dynamic restful call to Google App Engine, propertiesholder, jackson dataformat"],
+        "sys_created": ["2014-07-16T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["JBoss Fuse Getting Started Home Loan Demo Part 3"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43315",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1264.0],
+        "sys_url_view": ["https://developers.redhat.com/video/vimeo/99901083"],
+        "thumbnail": ["https://i.vimeocdn.com/video/482242285_200x150.jpg"],
+        "sys_description": ["For people that are getting started to know Fuse, and wants to get their hands dirty and develop a JBoss Fuse project for the first time. You can find the source code for this project here: https://github.com/weimeilin79/homeloan-part1"],
+        "sys_created": ["2014-07-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["JBoss Fuse Getting Started Home Loan Demo Part 1"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46545",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1062.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/86420843"],
+        "thumbnail": ["https://i.vimeocdn.com/video/464086997_200x150.jpg"],
+        "sys_description": ["Description and demonstration of the Role Based Access Control feature that's new in WildFly 8. This first of three videos demonstrates the standard roles under which WildFly 8 administrators can operate."],
+        "sys_created": ["2014-02-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "wildfly swarm"],
+        "target_product": ["Red Hat JBoss Enterprise Application Platform"],
+        "sys_title": ["Role Based Access Control in WildFly 8 (Part 1 of 3)"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46535",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1575.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/32225698"],
+        "thumbnail": ["https://i.vimeocdn.com/video/218132584_200x150.jpg"],
+        "sys_created": ["2011-11-16T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat OpenShift Container Platform"],
+        "sys_title": ["Java EE in the Cloud"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46525",
+      "_score": 1.0,
+      "fields": {
+        "duration": [317.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/41667870"],
+        "thumbnail": ["https://i.vimeocdn.com/video/289785203_200x150.jpg"],
+        "sys_description": ["In this short video, we focus on the Getting Started Experience with JBoss Developer Studio 5 - Beta 3, Aerogear - provides the Maven Archetype for HTML5 and OpenShift - JBoss in the Cloud. The HTML 5 Archetype in JBoss Central leverages frameworks modernizer.js and jQuery Mobile to enable both a desktop & mobile based client-side application, with JBoss Java EE 6 resources providing the back-end business logic. Find out more about OpenShift at http://openshift.redhat.com Find out more about Aerogear at http://www.jboss.org/aerogear"],
+        "sys_created": ["2012-05-06T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "OpenShift"],
+        "target_product": [""],
+        "sys_title": ["5 Minutes to Mobile"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46515",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2422.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/32211344"],
+        "thumbnail": ["https://i.vimeocdn.com/video/217744057_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2011-11-16T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Modular Class Loading with JBoss Modules"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46505",
+      "_score": 1.0,
+      "fields": {
+        "duration": [10.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/130286799"],
+        "thumbnail": ["https://i.vimeocdn.com/video/522087157_200x150.jpg"],
+        "sys_description": ["For people that are getting started to know Fuse, and wants to get their hands dirty and develop a JBoss Fuse project for the first time. In this demo, the vendors are asking for an service, that provides all the data with the updated appraised house value back to them. And they are requesting if the information can be provided through a Restful Web service. We will be using the latest available Rest DSL in camel to expose a restful web service through the configuration. Contains Rest DSL to expose Restful Endpoint services Servlet setup in Camel"],
+        "sys_created": ["2015-06-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "Red Hat Software Collections"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse Getting Started Home Loan Demo Part 5"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46495",
+      "_score": 1.0,
+      "fields": {
+        "duration": [473.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/130285316"],
+        "thumbnail": ["https://i.vimeocdn.com/video/522085000_200x150.jpg"],
+        "sys_description": ["For people that are getting started to know Fuse, and wants to get their hands dirty and develop a JBoss Fuse project for the first time. In this part of the video we concentrate on processing the customer data, by reading the xml file and store it into a Postgres Database. And it also takes you through the new data mapper feature in JBDS. This demo uses the most simple and straight forward sql component in Camel Contains -SQL component -Dozer component for data convert"],
+        "sys_created": ["2015-06-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "Red Hat Software Collections"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse Getting Started Home Loan Demo Part 2"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46485",
+      "_score": 1.0,
+      "fields": {
+        "duration": [527.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/130286646"],
+        "thumbnail": ["https://i.vimeocdn.com/video/522086931_200x150.jpg"],
+        "sys_description": ["For people that are getting started to know Fuse, and wants to get their hands dirty and develop a JBoss Fuse project for the first time. This part of the demo talk about combining 2 other route and use the result to calculate the actual housing appraisal. The result is then stored in the database using the Camel SQL component. Contains - SQL component - propertiesholder - reuse existing mapper"],
+        "sys_created": ["2015-06-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "Red Hat Software Collections"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse Getting Started Home Loan Demo Part 4"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46475",
+      "_score": 1.0,
+      "fields": {
+        "duration": [820.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/130286282"],
+        "thumbnail": ["https://i.vimeocdn.com/video/522086447_200x150.jpg"],
+        "sys_description": ["For people that are getting started to know Fuse, and wants to get their hands dirty and develop a JBoss Fuse project for the first time. This part of the demo talk about the integration with google app engine, by breaking small individual tasks into separate route, it is much easier to achieve microsevice with JBoss Fuse. The demo is interacting with google app engine to get the surrounding number of schools of the address provided. Contains - Dynamic restful call to Google App Engine, - propertiesholder - Dozer component"],
+        "sys_created": ["2015-06-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "Red Hat Software Collections"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse Getting Started Home Loan Demo Part 3"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46465",
+      "_score": 1.0,
+      "fields": {
+        "duration": [431.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/130284677"],
+        "thumbnail": ["https://i.vimeocdn.com/video/522084052_200x150.jpg"],
+        "sys_description": ["For people that are getting started to know Fuse, and wants to get their hands dirty and develop a JBoss Fuse project for the first time. In this part of the video, I am going to build the first microservice application of the project, which takes care of reading the XML file from vendor fie directory and separate the xml to different messaging queue for further process. In this demo, you will see -File Endpoint -Content Base Routing -Set up the activemq for messaging broker."],
+        "sys_created": ["2015-06-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "Red Hat Software Collections"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse Getting Started Home Loan Demo Part 1"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46455",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2894.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/24778672"],
+        "thumbnail": ["https://i.vimeocdn.com/video/162652567_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2011-06-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["The Mobile Web Revealed For The Java Developer"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46445",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2693.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/24778337"],
+        "thumbnail": ["https://i.vimeocdn.com/video/162650086_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2011-06-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Transacting the Cloud"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46435",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2843.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/24777987"],
+        "thumbnail": ["https://i.vimeocdn.com/video/162648327_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2011-06-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["ruby", "JBoss"],
+        "target_product": [""],
+        "sys_title": ["Scaling Rails Applications with TorqueBox"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46425",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2725.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/24777413"],
+        "thumbnail": ["https://i.vimeocdn.com/video/162643641_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2011-06-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["REST Best Practices with HornetQ REST"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46415",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2037.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/24777230"],
+        "thumbnail": ["https://i.vimeocdn.com/video/162643310_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2011-06-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Realize the Full Potential of JSF With Seam Faces and CDI"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46405",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3434.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/24776570"],
+        "thumbnail": ["https://i.vimeocdn.com/video/162640583_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2011-06-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Multi-Deployment Testing and Discovery"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46395",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3111.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/24776105"],
+        "thumbnail": ["https://i.vimeocdn.com/video/162635643_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2011-06-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Governing Services, Data, Rules, and more"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46385",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2541.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/24775911"],
+        "thumbnail": ["https://i.vimeocdn.com/video/162633359_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2011-06-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Filling The Gap"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46375",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3704.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/24775619"],
+        "thumbnail": ["https://i.vimeocdn.com/video/162632090_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2011-06-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Demystifying Complex Event Processing"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46365",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2777.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/24775252"],
+        "thumbnail": ["https://i.vimeocdn.com/video/162629649_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2011-06-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Clojure Development with JBoss"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46355",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3526.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/23966919"],
+        "thumbnail": ["https://i.vimeocdn.com/video/156502440_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars Seam 3 is a module collection of portable extensions and tooling for Java EE6, built on top of CDI (JSR-299 Java Contexts and Dependency Injection). Seam empowers developers that wish to create rich, standards-based internet applications by solving many of the challenges encountered when developing software in today's connected world. Join Shane Bryzak, the Seam Project Lead in this session to learn out more about some of the exciting new features in Seam 3, and to find out how to accelerate your Java EE6 development by taking advantage of Seam's many time-saving features. We'll also take a look at Seam Forge, a powerful shell-based tool for rapid Java EE6 application development. Presenter: Shane Bryzak"],
+        "sys_created": ["2011-05-19T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "java ee"],
+        "target_product": [""],
+        "sys_title": ["Seam 3: What's New, What's Cool"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46345",
+      "_score": 1.0,
+      "fields": {
+        "duration": [275.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/23585936"],
+        "thumbnail": ["https://i.vimeocdn.com/video/153706359_200x150.jpg"],
+        "sys_description": ["We are currently working on the integration of Forge in JBoss Tools. Lincoln's excellent screencast inspired me to write up a tutorial that shows how his work looks in the context of JBoss Tools. In true Hollywood style, this is basically a remake of Lincoln's version. We will create, deploy and debug a simple JEE web application on JBoss AS but this time using JBoss Tools. Full blog post at community.jboss.org/community/tools/blog/2011/05/11/have-your-cake-and-eat-it-too-forge-tools"],
+        "sys_created": ["2011-05-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["java ee"],
+        "target_product": ["Red Hat JBoss Developer Studio"],
+        "sys_title": ["Have Your Cake and Eat It Too : Forge Tools"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46335",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2384.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/2329362"],
+        "thumbnail": ["https://i.vimeocdn.com/video/86306238_200x150.jpg"],
+        "sys_description": ["A recording of the webex presentation on Drools 5 new features"],
+        "sys_created": ["2008-11-24T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat Decision Manager"],
+        "sys_title": ["Drools 5 Whats New"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46325",
+      "_score": 1.0,
+      "fields": {
+        "duration": [72.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/22696384"],
+        "thumbnail": ["https://i.vimeocdn.com/video/146951872_200x150.jpg"],
+        "sys_description": ["With the help of Seam Forge you can be up and running your first Arquillian based integration test on JBoss AS 7 in less then a minute! Big thanks to Paul Bakker, the Arquillian Forge Plugin lead for the great work."],
+        "sys_created": ["2011-04-21T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Arquillian + Seam Forge 0-100 in less then 1 min"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46315",
+      "_score": 1.0,
+      "fields": {
+        "duration": [82.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/21590738"],
+        "thumbnail": ["https://i.vimeocdn.com/video/138991802_200x150.jpg"],
+        "sys_description": ["TorqueBox: The beauty of Ruby with the power of JBoss"],
+        "sys_created": ["2011-03-28T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["ruby", "JBoss"],
+        "target_product": [""],
+        "sys_title": ["DevNexus 2011 TorqueBox Talk"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46305",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3136.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/19705548"],
+        "thumbnail": ["https://i.vimeocdn.com/video/125151614_200x150.jpg"],
+        "sys_description": ["Jim Crossley's TorqueBox presentation at MagicRuby 2011"],
+        "sys_created": ["2011-02-08T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["ruby", "JBoss"],
+        "target_product": [""],
+        "sys_title": ["Crank Up Your Apps With TorqueBox"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46295",
+      "_score": 1.0,
+      "fields": {
+        "duration": [4155.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/19010253"],
+        "thumbnail": ["https://i.vimeocdn.com/video/120272477_200x150.jpg"],
+        "sys_description": ["Description: With the introduction of Contextual Dependency Injection and Managed Beans into the Java EE 6 platform, a Java EE developer now has a full complement of facilities to write a Java EE application. But when should CDI be used, and when should introduce EJBs? How can you integrate CDI and EJB into your application? In this session we will walk through a Java EE 6 application build around CDI, and show how we can unobtrusively add EJB services as we need them. Presenter: Pete Muir is the project lead for Seam and Weld (the reference implementation of JSR-299: Contexts and Dependency Injection for Java EE), and is the co-founder of Arquillian, a test harness for Java application servers. Pete represented JBoss on the JSF 2.0 Expert Group. Pete is currently employed by Red Hat, as a core developer working on JBoss open source projects. Before working for Red Hat, Pete used and contributed to Seam whilst working for a UK based staffing agency as IT Development Manager. Pete has spoken at conferences such as Devoxx, JAX, JBoss World, JSFDays and JavaBlend as well as numerous JUGs. Pete blogs about Seam, Weld and Java at http://in.relation.to/Bloggers/Pete"],
+        "sys_created": ["2011-01-20T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["The Programming Model for EE6 (1024x768)"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46285",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2850.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/18672280"],
+        "thumbnail": ["https://i.vimeocdn.com/video/117622640_200x150.jpg"],
+        "sys_description": ["As Java projects evolve they become more and more complex to manage and getting a complete overview can be a painful task - especially if proper metadata about dependencies isn't available. In this session we will look at how you can use JBoss Tattletale to get an overview of your dependencies and thereby better manage your build, test and production environments. Topics: * Why JBoss Tattletale is needed ? * Project Review o Overall features o Analyzing dependencies o Improving quality o The Path to OSGi * JBoss Tattletale in Action * What's Next * How to get Involved Presenter:Jesper Pedersen works as a Core Developer at JBoss by Red Hat. He is the lead for the JBoss Tattletale project which focuses on software quality. Jesper received a MS in Computer Science from University of Southern Denmark."],
+        "sys_created": ["2011-01-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Tattletale - Liar Liar Pants on Fire"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46275",
+      "_score": 1.0,
+      "fields": {
+        "duration": [324.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/17669512"],
+        "thumbnail": ["https://i.vimeocdn.com/video/110143655_200x150.jpg"],
+        "sys_description": ["Showing how to create a simple CDI based servlet app with JBoss Developer Studio 4 with JBoss Tools 3.2 Beta 2. Blog: http://community.jboss.org/en/tools/blog/2010/12/10/simple-cdi-hello-world-in-eclipse"],
+        "sys_created": ["2010-12-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat JBoss Developer Studio"],
+        "sys_title": ["CDI HelloWorld with JBoss Tools & JBoss AS 6"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46265",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3397.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/17157086"],
+        "thumbnail": ["https://i.vimeocdn.com/video/524748856_200x150.jpg"],
+        "sys_description": ["This is a code-example driven introduction to Seam 3. Seam 3 is a powerful up-and-coming open source framework for building rich web applications in Java. Seam 3 is based on CDI, the next generation type-safe dependency injection API included in Java EE 6. Recorded 2010-11-11 at Øredev - www.oredev.org"],
+        "sys_created": ["2010-11-24T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["java ee", "JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBoss Seam - Reza Rahman"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46255",
+      "_score": 1.0,
+      "fields": {
+        "duration": [219.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16962454"],
+        "thumbnail": ["https://i.vimeocdn.com/video/104683628_200x150.jpg"],
+        "sys_description": ["Ashesh Badani"],
+        "sys_created": ["2010-11-18T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Ashesh Badani on Paas"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46245",
+      "_score": 1.0,
+      "fields": {
+        "duration": [101.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16962113"],
+        "thumbnail": ["https://i.vimeocdn.com/video/104681178_200x150.jpg"],
+        "sys_description": ["Mark Little"],
+        "sys_created": ["2010-11-18T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Mark Little on Java"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46235",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1439.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16743144"],
+        "thumbnail": ["https://i.vimeocdn.com/video/102971264_200x150.jpg"],
+        "sys_description": ["Noelle Jakusz"],
+        "sys_created": ["2010-11-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Rich interface development with enterprise portals"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46225",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1436.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16544029"],
+        "thumbnail": ["https://i.vimeocdn.com/video/101459521_200x150.jpg"],
+        "sys_description": ["Andrew Lee Rubinger"],
+        "sys_created": ["2010-11-05T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Arquillian invasion: Reducing enterprise testing to child's play"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46215",
+      "_score": 1.0,
+      "fields": {
+        "duration": [326.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16485051"],
+        "thumbnail": ["https://i.vimeocdn.com/video/100995984_200x150.jpg"],
+        "sys_description": ["SteamCannon deploying an application to a \"private\" cloud with just a few clicks"],
+        "sys_created": ["2010-11-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["JBoss SteamCannon Demo 1 - Photoalbum"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46205",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2907.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16483020"],
+        "thumbnail": ["https://i.vimeocdn.com/video/100980735_200x150.jpg"],
+        "sys_description": ["Are you interested in all things JBoss+Cloud, then this is your opportunity to ask. Bob McWhirter (BMW) is lead JBoss Cloud Architect and will cover projects like BoxGrinder, Steam Cannon and CirrAS. Now is your opportunity to see the next generation of IT infrastructure and Platform as a Service using JBoss technologies. Presenter: As the chief architect for middleware cloud computing at Red Hat, Bob McWhirter leads a team of engineers that is paving the way for the enterprise cloud computing paradigm shift. Named a Red Hat Fellow in 2009, McWhirter joined Red Hat in 2007 and is responsible for navigating the cloud as it relates to Red Hat’s middleware technologies within the JBoss Community and via JBoss Enterprise Middleware. He also leads the TorqueBox project, creating a Ruby application server on top of the core JBoss Application Server. Prior to joining Red Hat, McWhirter served as a founding engineer at Radar Networks, where he spent nearly two years working on the semantic-Web platform Twine.com. He is also the founder of the Codehaus open source community."],
+        "sys_created": ["2010-11-03T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Cloudy with a chance of BMWs"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46195",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1533.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16424369"],
+        "thumbnail": ["https://i.vimeocdn.com/video/100528848_200x150.jpg"],
+        "sys_description": ["This live recording from JUDCon 2010 in Berlin shows how to install RHQ and gives an overview over it. The recording does not cover the full session, but only an excerpt of it. To learn more about RHQ visit http://rhq-project.org/"],
+        "sys_created": ["2010-11-02T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Overview of RHQ 3"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46185",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2231.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16211058"],
+        "thumbnail": ["https://i.vimeocdn.com/video/98887608_200x150.jpg"],
+        "sys_description": ["Mark Little"],
+        "sys_created": ["2010-10-26T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Transactions: Overused or just misunderstood?"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46175",
+      "_score": 1.0,
+      "fields": {
+        "duration": [751.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16210333"],
+        "thumbnail": ["https://i.vimeocdn.com/video/98872953_200x150.jpg"],
+        "sys_description": ["Jay Balunas & Alexander Smirnov"],
+        "sys_created": ["2010-10-26T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["RichFaces in the cloud"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46165",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2110.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16194729"],
+        "thumbnail": ["https://i.vimeocdn.com/video/98730389_200x150.jpg"],
+        "sys_description": ["Mark Little"],
+        "sys_created": ["2010-10-26T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["JBoss PaaS"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46155",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2714.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16188072"],
+        "thumbnail": ["https://i.vimeocdn.com/video/98674977_200x150.jpg"],
+        "sys_description": ["Dan Allen"],
+        "sys_created": ["2010-10-25T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Seam: State of the Union"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46145",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1784.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16182001"],
+        "thumbnail": ["https://i.vimeocdn.com/video/98645313_200x150.jpg"],
+        "sys_description": ["Noelle Jakusz"],
+        "sys_created": ["2010-10-25T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Application management, monitoring, and provisioning with JOPR / JBoss Operations Network"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46135",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1116.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16180313"],
+        "thumbnail": ["https://i.vimeocdn.com/video/98637837_200x150.jpg"],
+        "sys_description": ["Manik Surtani"],
+        "sys_created": ["2010-10-25T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat JBoss Data Grid"],
+        "sys_title": ["Data-as-a-Service using Infinispan"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46125",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1777.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16176276"],
+        "thumbnail": ["https://i.vimeocdn.com/video/98628680_200x150.jpg"],
+        "sys_description": ["Emmanuel Bernard"],
+        "sys_created": ["2010-10-25T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["What's new in Hibernate: a JPA 2 perspective"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46115",
+      "_score": 1.0,
+      "fields": {
+        "duration": [4046.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16175443"],
+        "thumbnail": ["https://i.vimeocdn.com/video/98612633_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars Description:In this session, we will dive deep into how to build cloud agnostic applications. Seam, based on standardized contextual dependency injection (JSR-299: Contexts and Dependency Injection) allows you to port your code and skillset into the cloud. We will demo advanced integration with GWT toolkit for real-time ultra rich applications and data grid capabilities for a highly elastic middle-tier, running live in popular public cloud providers. Presenter: Pete Muir is the project lead for Seam and Weld (the reference implementation of JSR-299: Contexts and Dependency Injection for Java EE), and is the co-founder of Arquillian, a test harness for Java application servers. Pete represented JBoss on the JSF 2.0 Expert Group. Pete is currently employed by Red Hat, as a core developer working on JBoss open source projects. Before working for Red Hat, Pete used and contributed to Seam whilst working for a UK based staffing agency as IT Development Manager. Pete has spoken at conferences such as Devoxx, JAX, JBoss World, JSFDays and JavaBlend as well as numerous JUGs. Pete blogs about Seam, Weld and Java at http://in.relation.to/Bloggers/Pete"],
+        "sys_created": ["2010-10-25T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["PaaS"],
+        "target_product": [""],
+        "sys_title": ["Seam in the Clouds"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46105",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2449.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16171314"],
+        "thumbnail": ["https://i.vimeocdn.com/video/98609280_200x150.jpg"],
+        "sys_description": ["This live recording from JUDCon Berlin 2010 shows how to write plugins for RHQ, Jboss AS 5+6 Admin Console and JBoss Operations Network. Subjects covered are an architectural overview, components of a plugin and then source code. Code is created via the plugin generator and plugins are tested via the standalone container."],
+        "sys_created": ["2010-10-25T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Writing plugins for RHQ and the JBoss Admin console"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46095",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3873.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/15989685"],
+        "thumbnail": ["https://i.vimeocdn.com/video/97211565_200x150.jpg"],
+        "sys_description": ["Drools 5.0 introduced the Business Logic integration Platform which provides a unified and integrated core for Rules, Workflow and Event Processing. This session will focus on the new functionality introduced in Drools 5.1. A deep dive into core capabilities of Drools Expert, Flow and Fusion. Learn about integration with Spring, Camel and CXF and how they can be combined for declarative services. Find out how Drools Fusion delivers complex event processing (CEP) capabilities to build active decision management applications. Learn more about BPMN2 and the standards-based BPM implementation in DroolsFlow. Presenter: Mark Proctor received his B.S. Eng. in Engineer Science and Technology and then his M.S. in Business and Information Systems; both from Brunel University, West London. His M.S. thesis was in the field of Genetic Algorithms; which is where he first got his interest for anything AI related. Mark became involved in the Drools expert system project at an early stage and soon became its project lead. Mark then joined JBoss (later acquired by RedHat) as an employee when the Drools project was federated into the JBoss JEMS stack. Having developed a powerful expert system, Mark is now turning his attention to other declarative paradigms in an effort to unify them to allow for richer domain modeling environments."],
+        "sys_created": ["2010-10-19T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat Decision Manager"],
+        "sys_title": ["Drooling for Drools - Its Proctor Time"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46085",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2807.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/15034881"],
+        "thumbnail": ["https://i.vimeocdn.com/video/89842998_200x150.jpg"],
+        "sys_description": ["Description: JBoss Developer Studio 3 is out, now what can I do with it? This session introduces JBoss Developer Studio 3 and then shows some possibly not so well known tips and tricks for how to use features in Eclipse and especially JBoss Developer Studio 3 that helps make you more efficient developing JBoss and Java middleware applications. Presenter: Max Rydahl Andersen works for Red Hat and is the project lead for JBoss Tools and Developer Studio and is a core developer on Hibernate and Seam. Max have spoken at several EclipseCon's, JBUG's, JBoss World and Devoxx. Max blogs about JBoss Tools, Eclipse and Hibernate at http://in.relation.to/Bloggers/Max"],
+        "sys_created": ["2010-09-16T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Mad Max Tools"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46075",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1418.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/13793498"],
+        "thumbnail": ["https://i.vimeocdn.com/video/79792849_200x150.jpg"],
+        "sys_description": ["Este screencast apresenta uma solução construida com o uso do JBoss Seam e JBoss jBPM. No cenário apresentado, existe um workflow, com HumanTasks(Tarefas Humanas), de diferentes grupos. Observe como o Seam torna fácil o reaproveitamento do seu código que envolve as classes de JPA. Através de Simples Anotações, TagLibs e componentes, o Seam é também um framework, que além revolucionar o uso de JSF, EJB3, também é uma fantástica solução para Workflows em Java. Se você gostou deste screencast, entre em contato com um dos parceiros Red Hat no Brasil, ou mesmo com a própria Red Hat, através do email contato-br[a]redhat.com"],
+        "sys_created": ["2010-08-01T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "Red Hat Enterprise Linux"],
+        "target_product": ["Red Hat Process Automation Manager"],
+        "sys_title": ["Workflow/BPM com Seam e jBPM"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46065",
+      "_score": 1.0,
+      "fields": {
+        "duration": [171.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/13381097"],
+        "thumbnail": ["https://i.vimeocdn.com/video/76892913_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2010-07-16T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "Red Hat Enterprise Linux"],
+        "target_product": [""],
+        "sys_title": ["Usando JQuery/LightBox dentro do Portlet no JBoss EPP 5.0"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46055",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1479.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/13189666"],
+        "thumbnail": ["https://i.vimeocdn.com/video/75294495_200x150.jpg"],
+        "sys_description": ["Just the demo portion of Bela's Dynamic Clusters presentation at http://www.vimeo.com/13180921"],
+        "sys_created": ["2010-07-08T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Dynamic Clusters - Demo Only"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46045",
+      "_score": 1.0,
+      "fields": {
+        "duration": [176.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/13140150"],
+        "thumbnail": ["https://i.vimeocdn.com/video/74932365_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2010-07-06T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Instalando JBoss EPP 5.0 (Installing EPP 5.0)"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46035",
+      "_score": 1.0,
+      "fields": {
+        "duration": [112.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/12925276"],
+        "thumbnail": ["https://i.vimeocdn.com/video/73334599_200x150.jpg"],
+        "sys_description": ["In this session, Burr Sutter and John Graham will focus on the current state of the art capabilities and provide an introduction to the JBoss SOA Enterprise Platform, addressing use cases with live demonstrations of the solution using Web Services, ESB, BPEL (Business Process Execution Language), Business Events, and Rules."],
+        "sys_created": ["2010-06-28T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "bpms", "rules", "REST"],
+        "target_product": [""],
+        "sys_title": ["JBoss World Boston: SOA Platform"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46025",
+      "_score": 1.0,
+      "fields": {
+        "duration": [57.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/11681981"],
+        "thumbnail": ["https://i.vimeocdn.com/video/64659302_200x150.jpg"],
+        "sys_description": ["Presentation discusses REST vs SOA and the key capabilities of JBoss ESB + jBPM + Drools, using the petstore/dvdstore workflow demo and includes some demos of CEP (via Drools Fusion), Infinispan + ESB and AtomPub via RESTEasy."],
+        "sys_created": ["2010-05-12T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["REST", "JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBoss World Chicago SOA"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46015",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1272.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/11536949"],
+        "thumbnail": ["https://i.vimeocdn.com/video/63594180_200x150.jpg"],
+        "sys_description": ["This demonstration illustrates how a single end-to-end business workflow and a common set of business rules can be reused and easily adapted to meet changing conditions. The business model is order processing - catalog and shopping cart. In this demo, there is a Seam-based end-user facing web application (business to individual customer), batch orders via the file system (business partners) and a Windows client (VB.NET) that represents an employee-focused application. Technologies: - JBoss ESB - JBoss SOA Platform v5 - jBPM - JBoss Application Server - Drools - JBoss BRMS - Visual Basic 2010 Express Edition .NET 4.0 - JBoss Developer Studio 3.0 (Eclipse + JBoss Tools)"],
+        "sys_created": ["2010-05-06T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "bpms", "REST"],
+        "target_product": ["Red Hat Decision Manager"],
+        "sys_title": ["JBoss SOA Platform 5 Demo (ESB, jBPM, Drools)"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "46005",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3475.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/1072488"],
+        "thumbnail": ["https://i.vimeocdn.com/video/55277942_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2008-05-27T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["JAVAWUG BOF 36 JBoss SEAM with Sebastien Degardin Part 1"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45995",
+      "_score": 1.0,
+      "fields": {
+        "duration": [584.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/44552211"],
+        "thumbnail": ["https://i.vimeocdn.com/video/309542190_200x150.jpg"],
+        "sys_description": ["This video demonstrates how quickly and easily you an get started building Spring MVC applications using a provided Maven archetype in JBoss Developer Studio (http://www.jboss.org/developer) targeting JBoss Enterprise Application Platform 6 in the cloud at OpenShift."],
+        "sys_created": ["2012-06-23T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["SpringMVC on JBoss Enterprise Application Platform 6 on OpenShift"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45985",
+      "_score": 1.0,
+      "fields": {
+        "duration": [4188.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/25236095"],
+        "thumbnail": ["https://i.vimeocdn.com/video/166022191_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars Drools Planner optimizes automated planning. It solves use cases such as: - bin packing: filling containers, trucks, ships, cloud computer nodes - vehicle/freight/people routing: planning trucks, trains, airplanes, travelling salesmen, repairmen - employee shift rostering: rostering nurses, repairmen - agenda scheduling: scheduling courses, exams, conference presentations, maintenance jobs, advertisements - job shop scheduling: planning assembly lines for building cars, devices - cutting stock: cutting paper, steel, carpet - sport scheduling: planning football leagues, baseball leagues This presentation will: - demonstrate some of the use cases and their Drools Planner examples. - explain some of the characteristics of these problems, known as NP-complete or NP-hard problems, such as the very surprising search space size. - talk about how Drools Planner handles these problems. - show how Drools Planner optimizes a lot further than common implementations. For more information about Drools Planner take a look at the homepage: http://www.jboss.org/drools/drools-planner Presenter: Geoffrey De Smet Geoffrey is a Software Engineer at Red Hat. He's the Drools Planner lead, since he founded it in 2006. He has over 8 years of Java experience and recently joined Red Hat to work on Drools, Guvnor and Planner."],
+        "sys_created": ["2011-06-17T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat Decision Manager"],
+        "sys_title": ["Drools Planner optimizes automated planning"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45975",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1265.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/25258416"],
+        "thumbnail": ["https://i.vimeocdn.com/video/166212412_200x150.jpg"],
+        "sys_description": ["The next generation computing platform will be driven by the rapidly growing proliferation of multi-core computing mobile devices, where everything is connected and where the elastic capabilities of the cloud are pervasive and required. Our live demonstration includes multiple servers, workstations and mobile devices. We setup a network using equipment you can purchase at your local electronics store and built a mini-datacenter for the stage. We required WIFI connectivity, internet access, a live Twitter stream, audience participation and even managed to avoid system failure while \"pulling the plug\" on one of our servers. In short, we pulled off something miraculous, a maximum risk, live demonstration and lived to tell (actually tweet) about it! Key Proof points: - lightweight & embeddable - you will want to cram as many applications on the smallest possible machines - adaptable & available - you will need it to be highly elastic but also fault-tolerant - real-time - we live in a world where decisions must be made instantly Key technologies: - HTML5 - for real-time visualization of an elastic data grid (Infinispan) - Mobile web - all UIs were mobile web ready - demonstrated on iOS and Android devices - JSF2 and RichFaces4 - with real-time server-side push to the browser - Infinispan - All data held in the data grid - no database, NoSQL - Hibernate OGM (Object Grid Mapper) - even though there is no database, we can still access the data grid as if it were a relational database, using JPA and Hibernate - Drools - the data stream analyzer, allows us to sort the important and actionable information from the raw stream of data. - CDI - Contexts and Dependency Injection - the programming model of EE6 and JBoss - GWT and Errai - extending the CDI event model from the server out to the client More details at: http://www.jboss.org/jbw2011keynote"],
+        "sys_created": ["2011-06-17T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "java ee"],
+        "target_product": [""],
+        "sys_title": ["JBoss World 2011 Keynote Demo Only"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45965",
+      "_score": 1.0,
+      "fields": {
+        "duration": [4081.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/19992280"],
+        "thumbnail": ["https://i.vimeocdn.com/video/127264913_200x150.jpg"],
+        "sys_description": ["JBoss Operations Network is a powerful and very extensible framework for managing and monitoring servers and services in an enterprise environment. While it is especially strong on JBoss software, it is in no means limited to it. This session will give an overview of JBoss Operations Network (JBossON) and its downstream, RHQ-project. The overview shows the architecture and will then give a walk through the UI and shows the extension points of JBoss Operations Network and RHQ. In the live demo you will see how to quickly start with JBossON, take resources into inventory and even deploy new software to a managed machine. Presenter: Heiko Rupp Heiko works for Red Hat and is Senior Developer on the RHQ project. He studied Computer Science at University of Karlsruhe and used to create open source software for a long time. Heiko has written the first German book about JBossAS and one of the first German books on EJB3. Having worked on Service Level Management before, he joined after being a Consultant the JBoss Operations Network team in 2006 and has been working on RHQ and JBossON since then. When not working or otherwise hacking, Heiko likes running, playing with the kids and traveling. He lives in Stuttgart, Germany"],
+        "sys_created": ["2011-02-15T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Overview of RHQ and JBoss Operations Network"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45955",
+      "_score": 1.0,
+      "fields": {
+        "duration": [239.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/43462723"],
+        "thumbnail": ["https://i.vimeocdn.com/video/301751073_200x150.jpg"],
+        "sys_description": ["A brief overview of The JBoss Way - A better way to build applications, using modern technologies, with a recommended approach, that makes you more productive."],
+        "sys_created": ["2012-06-05T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Introducing The JBoss Way"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45945",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1238.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/68442425"],
+        "thumbnail": ["https://i.vimeocdn.com/video/440762680_200x150.jpg"],
+        "sys_description": ["This is a video of the demo in my keynote at CamelOne showing the first open source iPaaS implementation which is based on Apache Camel and the hawtio project. The demo is based on an early access build of Fuse 6.1 (which should be GA in September this year). Hawtio is the open source project which implements the Fuse Management Console included in Fuse 6.1. See http://hawt.io/ The demo video shows the browser window of the Fuse Management Console (hawtio) which is pure HTML & is built with angularjs. It's using Chrome & no browser plugins or flash are used; the demo works on iOS & Android devices too). Fuse Fabric is used to do the provisioning and configuration http://fuse.fusesource.org/fabric/ though hawtio tooling for camel can be used in any JVM"],
+        "sys_created": ["2013-06-15T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["Camel in the cloud demo from CamelOne 2013"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45935",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3883.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/14040415"],
+        "thumbnail": ["https://i.vimeocdn.com/video/81669804_200x150.jpg"],
+        "sys_description": ["This webinar will provide in-depth coverage of several new JSF 2.0 features. It will also ask of each : Is the current solution sufficient? Where is it lacking? We'll then review how RichFaces 4 is enhancing JSF to solve these issues by prototyping functionality for the future of JSF. The JSF 2.0 specification (JSR-314) addresses a substantial number of long standing pain points that JSF users have just come to accept as a hard knock life. JSF 2.0 is a true contender amongst web frameworks. It is not the end of the story though, and thankfully the expert group has once again left the door open for projects like RichFaces to extent, prototype and improve the specification. RichFaces lead the industry with ajax support for JSF1.2, played a significant role in the development of JSF 2.0, and continues to lead and prototype the future of the JSF standard for the RIA ecosystem. Whether you are a new JSF/RichFaces user who wants to find out more about the latest developments in the specification or an old hat with an issue or two on your mind, this session has something to offer you!"],
+        "sys_created": ["2010-08-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["JSF 2 and Beyond with RichFaces!"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45925",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1539.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/32452279"],
+        "thumbnail": ["https://i.vimeocdn.com/video/219544455_200x150.jpg"],
+        "sys_created": ["2011-11-21T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat JBoss Data Grid"],
+        "sys_title": ["Infinispan"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45915",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3841.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/13703705"],
+        "thumbnail": ["https://i.vimeocdn.com/video/79086019_200x150.jpg"],
+        "sys_description": ["Description: Infinispan is a highly popular new data grid platform that is taking the world by storm. In this session, Infinispan founder and project lead Manik Surtani will talk about some of the most interesting, massive scale uses of Infinispan they have witnessed within the community, and will talk about lessons learned from them. They will then take you on an in-depth tour of how you can make the most out of Infinispan to maximize the potential of your own projects and applications, whether they are webapps, frameworks or complex business engines. Presenter: Manik Surtani is a core R&D engineer at JBoss, a division of Red Hat. He is the founder of the Infinispan project, which he currently leads, and also leads the JBoss Cache project. His interests lie in cloud and distributed computing, autonomous systems and highly available computing. He has a background in artificial intelligence and neural networks, a field he left behind when he moved from academic circles to the commercial world. Since then, he's been working with Java-related technologies, first for a startup focusing on knowledge management and information exchange, and later for a large London-based consultancy as a tech lead focused on e-commerce applications on large Java EE and peer-to-peer technology. Surtani is a strong proponent of open source development methodologies, ethos, and collaborative processes, and has been involved in open source since his first forays into computing."],
+        "sys_created": ["2010-07-28T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat JBoss Data Grid"],
+        "sys_title": ["Infinite scale via Infinispan"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45905",
+      "_score": 1.0,
+      "fields": {
+        "duration": [61.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/25829285"],
+        "thumbnail": ["https://i.vimeocdn.com/video/170451230_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars Java EE6 focused on developer productivity and includes numerous enhancements that are true game-changers. In this session Pete and Dan will walk you through the key improvements, including those to EJB, Servlets, easy archive creation, Bean Validation (based on Hibernate Validator), JPA 2.0 criteria queries (thank you Hibernate) and the standardization of dependency injection (JSR 299 CDI). Through the use of a publicly available sample application, Pete and Dan will show you exactly how you can use these new features and hope to have a major impact on your daily life as an enterprise developer."],
+        "sys_created": ["2011-06-30T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["EE6 Programming - Immediate Productivity"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45895",
+      "_score": 1.0,
+      "fields": {
+        "duration": [79.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16962476"],
+        "thumbnail": ["https://i.vimeocdn.com/video/104675384_200x150.jpg"],
+        "sys_description": ["Noelle Jakusz"],
+        "sys_created": ["2010-11-18T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Getting started with JBoss"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45885",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3944.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/23584522"],
+        "thumbnail": ["https://i.vimeocdn.com/video/153683000_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars This session will be a technical deep dive and open discussion with Steve Ebersole, Project Lead for Hibernate and JBoss Core developer. Hibernate is one of the most widely adopted open source frameworks in history and the next generation of Hibernate, version 4, will build on that successful foundation while also providing additional value for the developer community. Presenter: Steve Ebersole Steve is the lead of the Hibernate project. He joined JBoss in 2004 after working many years in mixed RDBMS and OO development. Some of Steve's non-coding interests include reading, music, wakeboarding, wakesurfing and basketball."],
+        "sys_created": ["2011-05-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "java ee"],
+        "target_product": [""],
+        "sys_title": ["Hibernate 4: The Next Generation"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45875",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3709.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/45923732"],
+        "thumbnail": ["https://i.vimeocdn.com/video/319548886_200x150.jpg"],
+        "sys_description": ["This recorded webinar gets you the lowdown on jBPM 5 from Kris Verlaenen, Red Hat’s jBPM 5 project lead. While you’re at it, learn how to build intelligent business processes by leveraging the combined power of business rules, business events, and processes. Interested in the demo mentioned in this recording? Visit http://www.jboss.org/jbw2012keynote Popular jBPM 5, now part of JBoss Enterprise BRMS jBPM 5—one of the most popular open source BPM/workflow solutions on the market — is being productized as part of JBoss® Enterprise BRMS, which injects intelligence into static business processes. jBPM key functions and future direction Adopted by many enterprises for its lightweight footprint, embeddable engine, and ease of use, jBPM takes these unique characteristics to the next level by adopting the popular BPMN 2 standard—the choice of standard for modeling and native execution. Check out this webinar to learn about jBPM 5’s key functions and future direction, including: BPMN 2-based process modeling using rich web-based designer and Eclipse editor. Human interaction based on the WS-HT standard. Process monitoring and debugging. Support plan through JBoss’ enterprise product Speakers: Kris Verlaenen, jBPM 5 project lead, Red Hat Kris Verlaenen leads the jBPM 5 effort and is one of the core developers of the Drools project, to which he started contributing in 2006. After finishing his Ph.D. in computer science in 2008, he joined JBoss full time and became the Drools Flow lead. He has a keen interest in the healthcare domain, one of the areas that has already shown a great need for a unified process, rule, and event-processing framework."],
+        "sys_created": ["2012-07-17T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "RHDevelopers"],
+        "target_product": ["Red Hat Process Automation Manager"],
+        "sys_title": ["jBPM 5 - Building intelligence Business Processes"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45865",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1229.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/39796236"],
+        "thumbnail": ["https://i.vimeocdn.com/video/274654240_200x150.jpg"],
+        "sys_description": ["This screencast focuses on Maven and the integration with JBoss Developer Studio and Enterprise Application Platform 6. In this video we highlight some key integration points between Eclipse, m2e and m2e-wtp. $HOME\\.m2\\settings.xml pom.xml - community vs enterprise Run As Maven Build mvn -version mvn clean compile package mvn jboss-as:deploy mvn test -Parq-jbossas-remote importing Maven-based quickstarts"],
+        "sys_created": ["2012-04-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat JBoss Developer Studio"],
+        "sys_title": ["Maven m2e JBoss Developer Studio 5"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45855",
+      "_score": 1.0,
+      "fields": {
+        "duration": [4106.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/32998578"],
+        "thumbnail": ["https://i.vimeocdn.com/video/223659950_200x150.jpg"],
+        "sys_description": ["Presenter: Marius Bogoevici Description: Getting the best experience while developing Spring applications owes a lot to running them on a state-of-the-art application server. In this session, we will show you how JBoss AS7 with its new architecture and a new set of features provides an ideal environment for developing and deploying Spring applications. There are multiple ways in which a Spring developer can benefit from the overall goodness that is JBoss AS7. On one hand, you can use it as a generic Java EE 6 application server and stay up-to-date with the latest enterprise Java specification, while continuing to use your favorite development model. However, for advanced users, taking advantage of features which are unique to JBoss AS is what can provide a competitive edge, and in this webinar we will cover both angles. This webinar is addressing developers and architects that use Spring in their applications, both new to JBoss AS or seasoned users of a previous version of it. For new users, it will demonstrate how to run Spring applications in JBoss AS7. and for existing users it will distill the new features of JBoss AS7 from a Spring user perspective, including how Snowdrop, the JBoss extension for Spring is addressing their needs. Since staying in touch with technical advances is critical for the success of an enterprise application, a question often asked is how can Spring developers blend with CDI, the Java EE 6 native dependency injection model, to create applications which are both future-proof, but also friendly to existing code, which is another important aspect of adopting JBoss AS7 as the runtime of choice. In response to that, the webinar will cover the Spring/CDI integration which currently exists as part of the Seam project. Presenter Bio: Marius Bogoevici is a Senior Software Engineer with Red Hat, leading the JBoss AS/Spring integration efforts. He is currently the lead for Snowdrop, a utility package that contains JBoss-specific extensions to the Spring Framework. He makes regular contributions to Weld, the JSR-299 Reference Implementation. Marius has an extensive experience of more than 14 years developing and architecting software systems. Prior to joining Red Hat, he was a Spring consultant with SpringSource. He is a contributor to the Spring Integration enterprise integration framework and co-author of \"Spring Integration in Action\"."],
+        "sys_created": ["2011-12-01T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBoss AS7 for Spring Developers"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45845",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2123.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/13488207"],
+        "thumbnail": ["https://i.vimeocdn.com/video/77543066_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2010-07-20T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["BoxGrinder"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45835",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3979.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/25863625"],
+        "thumbnail": ["https://i.vimeocdn.com/video/170550702_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars Rapid adoption of JBoss AS by developers has been one of the Open Source success stories of the last decade. What we're seeing now is the next phase of adoption with Fortune 500 companies worldwide choosing to deploy JBoss AS and JBoss EAP to support business critical applications in production. We've heard from our customers that the key requirement for production deployment is powerful and reliable HA, and with JBoss AS7 we've built on our longstanding reputation. In this session, Paul Ferraro will deep dive into how to configure and tune the clustering capabilities of JBoss AS7. Bela Ban will then give you a glimpse into the future of cloud-scale clustering."],
+        "sys_created": ["2011-07-01T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "Red Hat"],
+        "target_product": [""],
+        "sys_title": ["Clustering for High Availability (HA) with JBoss AS7"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45825",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3337.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/27155228"],
+        "thumbnail": ["https://i.vimeocdn.com/video/180027937_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars JBoss AS7 (www.jboss.org/as7) is a game-changer for both Java EE developers as well as application server administrators. And while JBoss is best known for being a Java EE container, in this session, we will focus on the OSGi capabilities of the new JBoss AS7. Starting with background information on OSGi in general, Thomas Diesler introduces the main objectives of this technology and explains the unique JBoss OSGi vision. Combining the best of two worlds we show how modern Java EE applications on AS7 can use the OSGi component model and vice versa. Presenters: Thomas Diesler and David Bosschaert Thomas is the OSGi Project Lead at JBoss. As the Red Hat representative in the OSGi Enterprise Expert Group he is involved in the standardization effort of various OSGi technologies that are relevant to the enterprise space. David, principal software engineer at Red Hat, is a co-chair of the OSGi Enterprise Expert Group and spends the majority of his time on the JBoss OSGi framework and other open source projects. Before joining JBoss/Red Hat in 2010, David worked for IONA Technologies and Progress Software in Dublin, Ireland."],
+        "sys_created": ["2011-08-01T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBoss AS7 OSGi Full Presentation + Demo"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45815",
+      "_score": 1.0,
+      "fields": {
+        "duration": [601.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/58030893"],
+        "thumbnail": ["https://i.vimeocdn.com/video/402512689_200x150.jpg"],
+        "sys_description": ["This episode begins with an empty Eclipse workspace and builds a SwitchYard application from scratch."],
+        "sys_created": ["2013-01-23T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["SwitchYard Ep 6 : New App Walkthrough"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45805",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1983.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16184123"],
+        "thumbnail": ["https://i.vimeocdn.com/video/98659741_200x150.jpg"],
+        "sys_description": ["Jay Balunas and Alexander Smirnov"],
+        "sys_created": ["2010-10-25T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Going beyond JavaServer Faces 2.0 with RichFaces 4"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45795",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3014.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/14245054"],
+        "thumbnail": ["https://i.vimeocdn.com/video/83243207_200x150.jpg"],
+        "sys_description": ["You know you should test. You know that testing forces you to consider API design. That it proves your implementation, and that it documents for other maintainers its use. That it future-proofs you during refactoring but with too many moving parts, it's hard to fault even the most savvy developer for giving up. Tests have been slow to write, slow to execute, and push back our deadlines. It doesn't have to be that way anymore. In this session, we'll explore techniques to skip the build and stay within the IDE, reduce boilerplate by harnessing an annotation-driven framework, and hook into some common embeddable EE containers from a plain JavaSE environment. Presenter: As Senior Software Engineer at Red Hat, Andrew Lee Rubinger is primarily tasked with development of the JBoss Community's EJB 3.x implementation. He is the author of the upcoming “Enterprise JavaBeans 3.1, 6th Edition” from O’Reilly Media, and his role as Core Developer within the JBoss Application Server is supplemented by leading the EmbeddedAS and ShrinkWrap projects. His work can be followed via http://twitter.com/ALRubinger or in more colorful format on his blog at http://exitcondition.alrubinger.com. Aslak Knutsen is currently a Senior Software Engineer for the JBoss Seam team at Red Hat, Inc. where he is the project lead for Arquillian and works on projects such as ShrinkWrap, Weld and Seam 3. Previously, Aslak was a Senior Consultant at Conduct AS (working with JBoss related technologies) and Senior Developer at EDB ASA (working with electronic billing/banking systems)."],
+        "sys_created": ["2010-08-18T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Arquillian Invasion: Reducing Enterprise Testing to Child's Play"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45785",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3503.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/15122570"],
+        "thumbnail": ["https://i.vimeocdn.com/video/90523483_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars Class loading is widely viewed as one of the darkest arts in Java development. In this session, Jason Greene will provide insight into the how and why of Java SE, Java EE, JBoss Application Server, JBoss Microcontainer, and OSGi class loading. He will offer historical perspective by beginning with JDK internals and progress to the modern, modular class loader models in use today. In addition, Jason will cover common pitfalls and methodologies to avoid them. Presenter: Jason currently leads the JBoss Application Server project, which is a popular open source application development platform. He is a member of the Java Community Process (JCP), and most recently the expert group of the Java EE and Contexts & DI specifications. During his tenure at Red Hat, he has worked in many JBoss Enterprise Middleware areas, including the application server, clustering, Web services, AOP, and security. His interests include concurrency, distributed computing, hardware, and programming language design."],
+        "sys_created": ["2010-09-20T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["The Zen of Class Loading"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45775",
+      "_score": 1.0,
+      "fields": {
+        "duration": [4019.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/19003509"],
+        "thumbnail": ["https://i.vimeocdn.com/video/120046744_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars With the introduction of Contextual Dependency Injection and Managed Beans into the Java EE 6 platform, a Java EE developer now has a full complement of facilities to write a Java EE application. But when should CDI be used, and when should introduce EJBs? How can you integrate CDI and EJB into your application? In this session we will walk through a Java EE 6 application build around CDI, and show how we can unobtrusively add EJB services as we need them. Presenter: Pete Muir is the project lead for Seam and Weld (the reference implementation of JSR-299: Contexts and Dependency Injection for Java EE), and is the co-founder of Arquillian, a test harness for Java application servers. Pete represented JBoss on the JSF 2.0 Expert Group. Pete is currently employed by Red Hat, as a core developer working on JBoss open source projects. Before working for Red Hat, Pete used and contributed to Seam whilst working for a UK based staffing agency as IT Development Manager. Pete has spoken at conferences such as Devoxx, JAX, JBoss World, JSFDays and JavaBlend as well as numerous JUGs. Pete blogs about Seam, Weld and Java at http://in.relation.to/Bloggers/Pete"],
+        "sys_created": ["2011-01-20T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["java ee", "JBoss"],
+        "target_product": [""],
+        "sys_title": ["The Programming Model for EE6"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45765",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1124.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/12373655"],
+        "thumbnail": ["https://i.vimeocdn.com/video/69309691_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2010-06-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["spring boot", "JBoss", "java ee"],
+        "target_product": [""],
+        "sys_title": ["Spring Into JBoss Demo"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45755",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3464.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/31616425"],
+        "thumbnail": ["https://i.vimeocdn.com/video/213230392_200x150.jpg"],
+        "sys_description": ["Not much is hotter today than mobile web development! This mobile world has new restrictions and old issues. As Java enterprise developers you're dedicated to standards. You've also got existing JSF applications (hopefully written with RichFaces) that need a mobile face. Do you have to move away from JavaServer Faces (JSF) to write kick ass mobile web applications? NO! This session will go through the details, resources, and code you need to create near native, mobile web applications with todays enterprise technologies. That means your Java Enterprise Edition 6 app server (JBoss AS7) running with JSF 2, CDI, JMS, bean validation, etc…, but enhanced with device and feature detection, HTML5 and CSS3. This is a very technical session, that will assume some understanding on the mobile web and JSF. Don't worry, if you saw Burr Sutter's webinar on September 21st (http://vimeo.com/29403374), and have basic knowledge of JSF you'll be all set. With JSF 2 and RichFaces 4 you can still get the advantages of working with Java EE6 while working with the latest in client technology. It's not all good news though and we'll go over some of the pitfalls of working with JSF on mobile devices, and how you can work around them."],
+        "sys_created": ["2011-11-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["java ee", "Red Hat Enterprise Linux"],
+        "target_product": [""],
+        "sys_title": ["HTML5 and Mobile JSF for the Java Web Developer"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45745",
+      "_score": 1.0,
+      "fields": {
+        "duration": [4359.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/13180921"],
+        "thumbnail": ["https://i.vimeocdn.com/video/75268497_200x150.jpg"],
+        "sys_description": ["The mod-cluster module, developed by JBoss, has many advantages over mod-jk, such as dynamic addition and removal of cluster nodes and web applications, and dynamic load balancing between httpd and the different JBoss servers. First, we'll present the architecture of mod-cluster and its advantages over mod-jk. Then we'll show how to configure mod-cluster and JBoss. Finally, we'll demo a dynamic cluster, running in the cloud (EC2). The demo includes adding new JBoss servers to a running system (e.g. to cover load spikes), removing running instances, and adding and removing web applications. Attendees will walk away with an understanding of what mod-cluster is and how to use it. Presenter: Bela completed his PhD at the University of Zurich, Switzerland. After some time at IBM Research, he did a post-doc at Cornell. Then he worked on NMS/EMS for Fujitsu Network Communications in San Jose, California. In 2003, he joined JBoss to work full-time on open source. Bela manages the Clustering Team at JBoss and created and leads the JGroups project. Bela's interests include network protocols, performance, group communication, trail running, biking and beerathlon. When not hacking code he spends time with his family."],
+        "sys_created": ["2010-07-08T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "java ee"],
+        "target_product": [""],
+        "sys_title": ["Dynamic clusters with Apache httpd, mod-cluster and JBoss"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45735",
+      "_score": 1.0,
+      "fields": {
+        "duration": [4213.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/12620367"],
+        "thumbnail": ["https://i.vimeocdn.com/video/71139688_200x150.jpg"],
+        "sys_description": ["A well organized and well maintained artifact repository is an important step to have simple and reliable builds and releases. A basic setup using a web server and a directory tree is no-longer sufficient for many organizations. As the organization's Maven repository grows, a fully featured Maven repository manager can provide things like staging, validation, and simpler build configuration. This session will discuss the challenges faced when creating a Maven repository infrastructure for your organization. The basic concepts of a Maven repository will be introduced, followed by a discussion with several examples of how Maven is configured to use repositories. The limitations and potential problems of a basic setup will be discussed, including how these problems might be solved using a Maven repository manager. The JBoss Community Maven repository will be examined including the problems with the previous setup, how the repositories were rebuilt to address these problems, and what are the plans for the future of the JBoss repository. The goal of this session is to explain the basic concepts of Maven repositories and repository managers, compare the advantages and disadvantages of several possible repository configurations, and provide enough information so that you can begin desiging your own repository infrastructure. It is recommended that attendees have at least a basic understanding of Maven and a general knowledge of Java and related software."],
+        "sys_created": ["2010-06-16T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Maven Repository Magic"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45725",
+      "_score": 1.0,
+      "fields": {
+        "duration": [118.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/16935133"],
+        "thumbnail": ["https://i.vimeocdn.com/video/104454969_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars Description: Business Process Management (BPM) technology offers you the capability to better manage and streamline your business processes. jBPM5 continues its vision in this area by offering an open-source, lightweight, embeddable process engine for executing business processes. Combined with the necessary services and tooling, this allows not only developers but also business users to manage your processes more efficiently throughout their entire lifecycle. A lot is happening in the BPM area as well, with the introduction of the BPMN 2.0 standard, the increasing interest in more dynamic and adaptive processes, integration with business rules and event processing, etc. This presentation will show you how jBPM5 tackles these challenges and give you an overview of the most important features. Presenter: Kris Verlaenen is leading the jBPM5 effort. He is also one of the core developers of the Drools project, to which he started contributing in 2006. After finishing his PhD in Computer Science in 2008, he joined JBoss full-time and became the Drools Flow lead. He also has a keen interest in the healthcare domain, one of the areas that have already shown to have a great need for a unified process, rule and event processing framework."],
+        "sys_created": ["2010-11-17T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "bpms"],
+        "target_product": ["Red Hat Process Automation Manager"],
+        "sys_title": ["jBPM5: Are your business processes ready for the future?"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45715",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3932.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/33538130"],
+        "thumbnail": ["https://i.vimeocdn.com/video/227709240_200x150.jpg"],
+        "sys_description": ["Description: You've heard all the terms - Mobile Web, HTML5, JBoss AS7, Restful services, jQuery Mobile. Maybe you've even played around with them a bit. But how do they all fit together? We're going to discuss all of this, and how it is encompassed in the POH5 Architecture, otherwise known as Plain Old HTML5! Specifically how the technologies and techniques around this drive the next generation web. In this webinar Jay Balunas is going to walk through a sample application that does just that. Of coarse there will be links to the code, a live version of it hosted up on Red Hat Openshift (our very own PaaS), and plenty of details to wade through like: Pure HTML clients JAX-RS GET & POST endpoints HTML5 based page structure HTML5 form element & validation CSS3 selectors used for styling JAX-RS validation handling jQuery & jQuery Mobile integration QUnit test suite to validate JavaScript Arquilian test suite to validate endpoints Since part of this example is encapsulated in a Maven archetype you can get your project started in no time, and understand the guts from this presentation! Presenter Bio: Jay Balunas, principal software engineer at Red Hat, works as a JBoss core developer and leads up our mobile development efforts. He is also the RichFaces project lead and has been involved with various open source projects including Seam, Portal, and Weld. He is the co-author of two DZone RichFaces reference cards, and was a member of the JSF 2.0 expert group. Jay has been architecting and developing enterprise applications and projects for over ten years, specializing in mobile device integration, web tier frameworks, UI design, and integration. Jay has spoken at many conferences and user groups such as JavaOne, JSFSummit, JBoss World, JUDCon, and various JUGs. Jay blogs about RichFaces, JSF 2.0, mobile web, and other rich internet application technologies at http://in.relation.to/Bloggers/Jay"],
+        "sys_created": ["2011-12-12T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["REST", "JBoss"],
+        "target_product": [""],
+        "sys_title": ["Kick start your Plain Old HTML5 (POH5) mobile project on JBoss AS7"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45705",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3527.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/18721477"],
+        "thumbnail": ["https://i.vimeocdn.com/video/117954410_200x150.jpg"],
+        "sys_description": ["This presentation is basically a web framework roundup, to discuss the more popular ways to build web applications on the JBoss application server and to describe their relative pros and cons. The result of my research & exploration, there are many alternatives and your choice may simply be a matter of taste. Demonstrated frameworks and libraries include: SpringMVC, jQuery, Seam, JSF, RichFaces, GWT."],
+        "sys_created": ["2011-01-12T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "spring boot"],
+        "target_product": [""],
+        "sys_title": ["Web Frameworks on JBoss (Having It Your Way)"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45695",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3013.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/20296211"],
+        "thumbnail": ["https://i.vimeocdn.com/video/129528114_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars Description: Multi-tenancy is an architecture for data partitioning with the intention of allowing a single running instance of an application to simultaneously host data for multiple organziations. Even though the technique itself has been around since the 1960s, multi-tenancy has become prominent in recent years within SaaS/PaaS solutions as hosting services transition from traditional ASP and SOA models to cloud computing models. This session will discuss how to use Hibernate in various multi-tenancy designs. Presenter: Steve Ebersole Steve is the lead of the Hibernate project. He joined JBoss in 2004 after working many years in mixed RDBMS and OO development. Some of Steve's non-coding interests include reading, music, wakeboarding, wakesurfing and basketball."],
+        "sys_created": ["2011-02-23T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Hibernate: Multi-tenancy"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45685",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3495.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/25855285"],
+        "thumbnail": ["https://i.vimeocdn.com/video/170489177_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars JBoss Application Server v7's new architecture is focused on making the day-to-day management of a cluster (or single node) of JBoss servers vastly easier, more centralized, more scriptable (automation) and more secure. In this presentation, Brian Stansberry will cover the core concepts behind the new configuration model — profiles, servers, server groups, hosts, and domains. Then Brian will demonstrate how easy it is to set up and manage a domain of multiple JBoss Application Server instances. He'll show you how to manage your domain both through the managment console that ships with the application server, and via the JBoss Application Server command line interface. Brian Stansberry is a principal software engineer at Red Hat, working as a core engineer on JBoss Application Server. He is currently leading the development of the new administration and management capabilities in JBoss Application Server 7 and JBoss Enterprise Application Platform 6. Previously he was the technical lead for the application server's high availability clustering features."],
+        "sys_created": ["2011-07-01T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Operations, Administration & Management of JBoss AS7"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45675",
+      "_score": 1.0,
+      "fields": {
+        "duration": [4169.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/12241968"],
+        "thumbnail": ["https://i.vimeocdn.com/video/68895972_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2010-06-02T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["spring boot", "JBoss", "java ee"],
+        "target_product": [""],
+        "sys_title": ["Spring Into JBoss"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45665",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3018.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/29403374"],
+        "thumbnail": ["https://i.vimeocdn.com/video/196932403_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars Presenter: Burr Sutter, Sr. Product Manager, Developer Experience/Tools Description: The massive adoption of smartphones sporting advanced operating systems like iOS and Android as well as the rapidly growing popularity of tablet devices has changed the nature of web development. Server-side Java guys must become vastly more savvy with the various frameworks, tools and techniques needed to build mobile friendly, HTML5-based web applications. In this session, we will distill HTML5 into the most important aspects that impact the Java web developer community. The focus of this session will be on practical tips and techniques for how to best take advantage of HTML5 features in your Java-based applications. We will have demonstrations and code samples to illustrate how to leverage your current server-side Java coding skills by adding RIA-focused HTML 5 features that are available on today's mobile platforms. Presenter Bio: Burr Sutter is a currently a Java Champion, previously president of the Atlanta Java Users Group, founder of the DevNexus Conference and he works for JBoss by Red Hat. He also founded the Atlanta chapter of the International Association of Software Architects and has spent 20 years teaching technologies to other technologists. Previous speaking engagements include: JavaOne, Javapolis (now Devoxx), No Fluff Just Stuff, Jazoon, the TDC in Sao Paulo and various JUGs around the globe."],
+        "sys_created": ["2011-09-21T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "java ee", "RHDevelopers"],
+        "target_product": ["Red Hat JBoss Developer Studio"],
+        "sys_title": ["HTML5 for the Java Web Developer"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45655",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3405.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/25829465"],
+        "thumbnail": ["https://i.vimeocdn.com/video/170297030_200x150.jpg"],
+        "sys_description": ["www.jboss.org/webinars In this session, we will introduce you to the next evolution of the JBoss Application Server. JBoss AS7 represents a new approach to middleware; you can expect much easier management, lower total cost of ownership and and much improved developer productivity. Jason will show you the key features of AS7, and give you a short tutorial in how to start using AS7 right away. This is your opportunity to get the \"inside scoop\" on what is happening with the worlds most popular application server."],
+        "sys_created": ["2011-06-30T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBoss AS7 - The Next Generation"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45645",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3528.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/24798138"],
+        "thumbnail": ["https://i.vimeocdn.com/video/162804470_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2011-06-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["JBoss World Keynote 2011"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45635",
+      "_score": 1.0,
+      "fields": {
+        "duration": [688.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/39743919"],
+        "thumbnail": ["https://i.vimeocdn.com/video/274258295_200x150.jpg"],
+        "sys_description": ["Google Web Tookit is also represented in JBoss Central and we have extend GWT with EE6 API and capabilities. This means you can @Inject into client-side code and use CDI Eventing between the client & server. Our project for these extensions to GWT is called Errai and can be found at www.jboss.org/errai For more information on how to Get Started with JBoss, please visit jboss.org/developer, follow us on Twitter @jbossdeveloper or you can follow me directly @burrsutter"],
+        "sys_created": ["2012-04-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat JBoss Developer Studio"],
+        "sys_title": ["7. JBoss Developer Studio with GWT"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45625",
+      "_score": 1.0,
+      "fields": {
+        "duration": [391.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/39608223"],
+        "thumbnail": ["https://i.vimeocdn.com/video/273230883_200x150.jpg"],
+        "sys_description": ["Forge is JBoss's rapid application development tool. A command line based tool that is embedded in JBoss Developer Studio 5. Run a whole script of commands to render a complete application. For more information on how to Get Started with JBoss, please visit www.jboss.org/developer, follow us on Twitter @jbossdeveloper or you can follow me directly @burrsutter persistence setup --provider HIBERNATE --container JBOSS_AS7 ; @/* Create some JPA @Entities on which to base our application */; entity --named Customer --package ~.model; field string --named firstName; field string --named lastName; field temporal --type DATE --named birthDate;"],
+        "sys_created": ["2012-04-02T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["4. Forge Introduction in JBoss Developer Studio 5"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45615",
+      "_score": 1.0,
+      "fields": {
+        "duration": [687.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/39608326"],
+        "thumbnail": ["https://i.vimeocdn.com/video/273231908_200x150.jpg"],
+        "sys_description": ["Forge also has a Hibernate Tools plugin that allows it to analyze a database schema and produce JPA entity classes. Then Forge can use its scaffolding feature to generate JSF2 Create, Read, Update and Delete (CRUD) user interfaces. Sakila H2 Database: https://github.com/maxandersen/sakila-h2 For more information on how to Get Started with JBoss, please visit www.jboss.org/developer, follow us on Twitter @jbossdeveloper or you can follow me directly @burrsutter"],
+        "sys_created": ["2012-04-02T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["6. Forge for DB Reverse Engineering with CRUD"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "45605",
+      "_score": 1.0,
+      "fields": {
+        "duration": [291.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/39607711"],
+        "thumbnail": ["https://i.vimeocdn.com/video/273227356_200x150.jpg"],
+        "sys_description": ["JBoss Central provides an archetype for RichFaces 4, also implementing the \"kitchensink\" example. RichFaces 4 leverages EE 6's BeanValidation by moving those declarative validation rules from the server down to the client. For more information on how to Get Started with JBoss, please visit www.jboss.org/developer, follow us on Twitter @jbossdeveloper or you can follow me directly @burrsutter"],
+        "sys_created": ["2012-04-02T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat JBoss Developer Studio"],
+        "sys_title": ["3. RichFaces 4 for Desktop & Mobile in JBDS 5"]
+      }
+    }]
+  }
+}

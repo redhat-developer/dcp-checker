@@ -1,3 +1,10 @@
-# Created by .ignore support plugin (hsz.mobi)
-.idea/
-dcp-checks.html
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+*.xml
+*.xml

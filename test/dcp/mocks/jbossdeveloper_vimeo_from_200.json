@@ -1,0 +1,1605 @@
+{
+  "uuid": "a3d17430-19d8-460a-a91f-bae63bcd0a87",
+  "took": 8,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "failed": 0
+  },
+  "hits": {
+    "total": 348,
+    "max_score": 1.0,
+    "hits": [{
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44595",
+      "_score": 1.0,
+      "fields": {
+        "duration": [194.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/95600665"],
+        "thumbnail": ["https://i.vimeocdn.com/video/475564439_200x150.jpg"],
+        "sys_description": ["Mark Proctor provides an overview of JBoss BRMS"],
+        "sys_created": ["2014-05-17T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat Decision Manager"],
+        "sys_title": ["JBoss BRMS Overview"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44585",
+      "_score": 1.0,
+      "fields": {
+        "duration": [251.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/95505857"],
+        "thumbnail": ["https://i.vimeocdn.com/video/475438717_200x150.jpg"],
+        "sys_description": ["Kris Verlaenen provides an overview of JBoss BPM"],
+        "sys_created": ["2014-05-16T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "bpms"],
+        "target_product": ["Red Hat Process Automation Manager"],
+        "sys_title": ["JBoss BPM Suite Overview"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44575",
+      "_score": 1.0,
+      "fields": {
+        "duration": [225.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/95497167"],
+        "thumbnail": ["https://i.vimeocdn.com/video/475427319_200x150.jpg"],
+        "sys_description": ["James Strachan provides an overview of JBoss Fuse"],
+        "sys_created": ["2014-05-16T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "Docker"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse Overview"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44565",
+      "_score": 1.0,
+      "fields": {
+        "duration": [229.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/95469649"],
+        "thumbnail": ["https://i.vimeocdn.com/video/475395113_200x150.jpg"],
+        "sys_description": ["Mike Piech, General Manager of Red Hat JBoss Enterprise Middleware discusses JBoss, enlightened innovation, open-source, community, xPaas and upstream vs product."],
+        "sys_created": ["2014-05-16T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Red Hat JBoss Enterprise Middleware Overview"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44555",
+      "_score": 1.0,
+      "fields": {
+        "duration": [220.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/95444954"],
+        "thumbnail": ["https://i.vimeocdn.com/video/475357540_200x150.jpg"],
+        "sys_description": ["Max Andersen provides an overview of JBoss Developer Studio"],
+        "sys_created": ["2014-05-15T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat JBoss Developer Studio"],
+        "sys_title": ["JBoss Developer Studio Overview"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44545",
+      "_score": 1.0,
+      "fields": {
+        "duration": [249.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/95430180"],
+        "thumbnail": ["https://i.vimeocdn.com/video/475344287_200x150.jpg"],
+        "sys_description": ["Rob Davies provides an overview of JBoss A-MQ"],
+        "sys_created": ["2014-05-15T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat AMQ"],
+        "sys_title": ["JBoss A-MQ Overview"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44535",
+      "_score": 1.0,
+      "fields": {
+        "duration": [653.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/95405713"],
+        "thumbnail": ["https://i.vimeocdn.com/video/475311593_200x150.jpg"],
+        "sys_description": ["This video introduces and demos the features of the new JBoss Fuse Camel Component which is delivered as part of the 6.1 release of the JBoss Fuse product."],
+        "sys_created": ["2014-05-15T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "fuse"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["Introducing the JBoss Fuse SAP Camel Component"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44525",
+      "_score": 1.0,
+      "fields": {
+        "duration": [760.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/95383726"],
+        "thumbnail": ["https://i.vimeocdn.com/video/475283422_200x150.jpg"],
+        "sys_description": ["LiveOak is a new JBoss Middleware project built from the ground up to be mobile friendly and cater to the needs of mobile application developers. Being lightweight and entirely RESTful allows you to hit the ground running in developing your mobile applications with LiveOak."],
+        "sys_created": ["2014-05-15T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Introduction to LiveOak"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44515",
+      "_score": 1.0,
+      "fields": {
+        "duration": [181.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/95306459"],
+        "thumbnail": ["https://i.vimeocdn.com/video/475311679_200x150.jpg"],
+        "sys_description": ["Kevin Conner provides details on when to use Fuse Service Works"],
+        "sys_created": ["2014-05-14T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Fuse Service Works Overview, Part 2"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44505",
+      "_score": 1.0,
+      "fields": {
+        "duration": [189.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/95295423"],
+        "thumbnail": ["https://i.vimeocdn.com/video/475311440_200x150.jpg"],
+        "sys_description": ["Kevin Conner introduces JBoss Fuse Service Works."],
+        "sys_created": ["2014-05-14T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBoss Fuse Service Works Overview"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44495",
+      "_score": 1.0,
+      "fields": {
+        "duration": [182.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/95291413"],
+        "thumbnail": ["https://i.vimeocdn.com/video/475173351_200x150.jpg"],
+        "sys_description": ["Mircea Markus provides an overview of JBoss Data Grid"],
+        "sys_created": ["2014-05-14T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat JBoss Data Grid"],
+        "sys_title": ["JBoss Data Grid Overview"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44485",
+      "_score": 1.0,
+      "fields": {
+        "duration": [839.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/94514302"],
+        "thumbnail": ["https://i.vimeocdn.com/video/474413914_200x150.jpg"],
+        "sys_description": ["In this tutorial you will use the Twitter connection example included in JBoss Fuse on OpenShift to create a simple connection to poll a constant feed of Twitter, listen for a keyword and then publish the results in real time to a log. You will learn how to modify the key word and save your changes so you can listen for a key word of your choice. And once the connection is made we will show you how to monitor this connection. This is the original recording before it was voiced-over and made more professional looking by the openshift team and posted at: https://www.openshift.com/blogs/jboss-fuse-on-openshift-how-to-connect-to-twitter"],
+        "sys_created": ["2014-05-08T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "fuse", "OpenShift"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse on OpenShift - How to Connect to Twitter"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44475",
+      "_score": 1.0,
+      "fields": {
+        "duration": [494.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/94501138"],
+        "thumbnail": ["https://i.vimeocdn.com/video/474395743_200x150.jpg"],
+        "sys_description": ["This demo shows how to take any maven project with a Java static main(String[] args) function and run it as a stand alone managed micro service using fabric8 and the awesome hawtio console"],
+        "sys_created": ["2014-05-08T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["microservices", "spring boot"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["Easy Micro Services with Fabric8"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44465",
+      "_score": 1.0,
+      "fields": {
+        "duration": [87.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/92868336"],
+        "thumbnail": ["https://i.vimeocdn.com/video/490883505_200x150.jpg"],
+        "sys_description": ["Earlier this month we talked to Markus Eisele about his role as a Java Champion and the JBoss community. In this short clip we hear about what about Red Hat impresses Markus."],
+        "sys_created": ["2014-04-24T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBoss Developer - Get Involved - Markus Eisele"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44455",
+      "_score": 1.0,
+      "fields": {
+        "duration": [258.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/92792413"],
+        "thumbnail": ["https://i.vimeocdn.com/video/472631392_200x150.jpg"],
+        "sys_description": ["Earlier this month we talked to Jason Greene, the engineering lead of WildFly, about the JBossAS/WildFly rename; what are the differences between WildFly and JBoss EAP; what's in new in Wildfly 8; and how much the community matters."],
+        "sys_created": ["2014-04-24T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "wildfly swarm"],
+        "target_product": [""],
+        "sys_title": ["Get Involved - Jason T. Greene"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44445",
+      "_score": 1.0,
+      "fields": {
+        "duration": [504.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/92554627"],
+        "thumbnail": ["https://i.vimeocdn.com/video/472307552_200x150.jpg"],
+        "sys_description": ["WildFly 8 and Java EE 7 using JBoss Developer Studio / Eclipse"],
+        "sys_created": ["2014-04-21T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["wildfly swarm", "JBoss"],
+        "target_product": ["Red Hat JBoss Enterprise Application Platform"],
+        "sys_title": ["WildFly 8 and Java EE 7 using JBoss Developer Studio / Eclipse"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44435",
+      "_score": 1.0,
+      "fields": {
+        "duration": [202.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/92395184"],
+        "thumbnail": ["https://i.vimeocdn.com/video/472112769_200x150.jpg"],
+        "sys_description": ["Configure WildFly 8 in NetBeans 8"],
+        "sys_created": ["2014-04-19T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["wildfly swarm"],
+        "target_product": ["Red Hat JBoss Enterprise Application Platform"],
+        "sys_title": ["Configure WildFly 8 in NetBeans 8"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44425",
+      "_score": 1.0,
+      "fields": {
+        "duration": [15.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91743399"],
+        "thumbnail": ["https://i.vimeocdn.com/video/471240672_200x150.jpg"],
+        "sys_description": ["Red Hat JBoss Middleware Portfolio For more information, visit www.jboss.org/products/"],
+        "sys_created": ["2014-04-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Red Hat JBoss Middleware Portfolio"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44415",
+      "_score": 1.0,
+      "fields": {
+        "duration": [169.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91710755"],
+        "thumbnail": ["https://i.vimeocdn.com/video/471196822_200x150.jpg"],
+        "sys_description": ["Mark Little talks the open source projects that JBoss contributes to. https://vimeo.com/user26840740"],
+        "sys_created": ["2014-04-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Upstream Projects & Open Source Software"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44405",
+      "_score": 1.0,
+      "fields": {
+        "duration": [230.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91533636"],
+        "thumbnail": ["https://i.vimeocdn.com/video/471206609_200x150.jpg"],
+        "sys_description": ["Steve Jacobs provides an overview of JBoss Data Virtualization"],
+        "sys_created": ["2014-04-09T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat JBoss Data Virtualization"],
+        "sys_title": ["JBoss Data Virtualization Overview"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44395",
+      "_score": 1.0,
+      "fields": {
+        "duration": [386.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91030055"],
+        "thumbnail": ["https://i.vimeocdn.com/video/470392399_200x150.jpg"],
+        "sys_created": ["2014-04-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "PaaS"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse iPaaS on OpenShift Part VI: Failover, failback"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44385",
+      "_score": 1.0,
+      "fields": {
+        "duration": [437.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91030054"],
+        "thumbnail": ["https://i.vimeocdn.com/video/470392380_200x150.jpg"],
+        "sys_created": ["2014-04-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "PaaS"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse iPaaS on OpenShift Part V: Connecting up to a network of brokers"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44375",
+      "_score": 1.0,
+      "fields": {
+        "duration": [684.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91030053"],
+        "thumbnail": ["https://i.vimeocdn.com/video/470392401_200x150.jpg"],
+        "sys_created": ["2014-04-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "PaaS"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse iPaaS on OpenShift Part IV: Creating a network of ActiveMQ brokers"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44365",
+      "_score": 1.0,
+      "fields": {
+        "duration": [639.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91030052"],
+        "thumbnail": ["https://i.vimeocdn.com/video/470392368_200x150.jpg"],
+        "sys_created": ["2014-04-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "PaaS"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse iPaaS on OpenShift Part III: Creating containers, Camel, and the bank demo"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44355",
+      "_score": 1.0,
+      "fields": {
+        "duration": [783.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91029861"],
+        "thumbnail": ["https://i.vimeocdn.com/video/470391903_200x150.jpg"],
+        "sys_created": ["2014-04-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "PaaS"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse iPaaS on OpenShift Part II: Creating ActiveMQ Brokers"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44345",
+      "_score": 1.0,
+      "fields": {
+        "duration": [473.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91029860"],
+        "thumbnail": ["https://i.vimeocdn.com/video/470391871_200x150.jpg"],
+        "sys_created": ["2014-04-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "PaaS"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse iPaaS on OpenShift Part I: Intro to the Loan Broker Example"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44335",
+      "_score": 1.0,
+      "fields": {
+        "duration": [590.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91029441"],
+        "thumbnail": ["https://i.vimeocdn.com/video/470391385_200x150.jpg"],
+        "sys_created": ["2014-04-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "PaaS"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse iPaaS on OpenShift Getting Started -- Part 2"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44325",
+      "_score": 1.0,
+      "fields": {
+        "duration": [409.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91029260"],
+        "thumbnail": ["https://i.vimeocdn.com/video/470391068_200x150.jpg"],
+        "sys_created": ["2014-04-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "PaaS"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse iPaaS on OpenShift: Getting Started"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44315",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1109.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/90908331"],
+        "thumbnail": ["https://i.vimeocdn.com/video/470246935_200x150.jpg"],
+        "sys_description": ["Java EE Application Development using Forge 2"],
+        "sys_created": ["2014-04-03T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "EAP", "OpenShift"],
+        "target_product": [""],
+        "sys_title": ["Java EE Application Development using Forge 2"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44305",
+      "_score": 1.0,
+      "fields": {
+        "duration": [931.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/89157225"],
+        "thumbnail": ["https://i.vimeocdn.com/video/468063441_200x150.jpg"],
+        "sys_description": ["WildFly 8 provides high availability using session failover and load balancing. This video shows how HTTP session failover can be easily setup on a localhost. Flow of the video is: - Introduction to WildFly and Managed Domain - Setup up a 2-instance cluster - Deploy a WAR file to the cluster using admin console - Access the application on one node and add HTTP session attributes on it - Shutdown that instance and show session failover by accessing the application on the other instance"],
+        "sys_created": ["2014-03-15T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["wildfly swarm", "JBoss", "Red Hat"],
+        "target_product": ["Red Hat JBoss Enterprise Application Platform"],
+        "sys_title": ["HTTP Session Failover in WildFly 8"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44295",
+      "_score": 1.0,
+      "fields": {
+        "duration": [644.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/86621055"],
+        "thumbnail": ["https://i.vimeocdn.com/video/464362756_200x150.jpg"],
+        "sys_description": ["This demo shows JBoss Fuse 6.1 Early Access running on a OpenShift Online. This video shows how to create Fuse on OpenShift Online, then create an ActiveMQ message broker cluster and the provision the loan broker demo (which is implemented via Camel routes). Then how to view whats happening inside the system via logs, queues or camel routes. The entire demo is shot using Google Chrome accessing the both the OpenShift site and the Fuse Management Console which is implemented via the hawtio open source project (hawt.io/)"],
+        "sys_created": ["2014-02-13T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse 6.1 Loan Broker Demo on OpenShift"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44285",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1172.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/86420845"],
+        "thumbnail": ["https://i.vimeocdn.com/video/464086464_200x150.jpg"],
+        "sys_description": ["Description and demonstration of the Role Based Access Control feature that's new in WildFly 8. This third of three videos demonstrates changing the default sensitivity and application classification settings in order to alter the sets of permissions available to users."],
+        "sys_created": ["2014-02-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["wildfly swarm", "JBoss"],
+        "target_product": ["Red Hat JBoss Enterprise Application Platform"],
+        "sys_title": ["Role Based Access Control in WildFly 8 (Part 3 of 3)"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44275",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1269.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/86420844"],
+        "thumbnail": ["https://i.vimeocdn.com/video/464084419_200x150.jpg"],
+        "sys_description": ["Description and demonstration of the Role Based Access Control feature that's new in WildFly 8. This second of three videos demonstrates turning on the RBAC provider and configuring the mapping of users to roles."],
+        "sys_created": ["2014-02-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "wildfly swarm"],
+        "target_product": ["Red Hat JBoss Enterprise Application Platform"],
+        "sys_title": ["Role Based Access Control in WildFly 8 (Part 2 of 3)"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44265",
+      "_score": 1.0,
+      "fields": {
+        "duration": [622.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/84689880"],
+        "thumbnail": ["https://i.vimeocdn.com/video/461651420_200x150.jpg"],
+        "sys_description": ["This demo shows JBoss Fuse 6.1 Early Access running on a OpenShift Online. This video shows how to create Fuse on OpenShift Online, then create an ActiveMQ message broker cluster and the provision the loan broker demo (which is implemented via Camel routes). Then how to view whats happening inside the system via logs, queues or camel routes. The entire demo is shot using Google Chrome accessing the both the OpenShift site and the Fuse Management Console which is implemented via the hawtio open source project (http://hawt.io/)"],
+        "sys_created": ["2014-01-21T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "fuse", "OpenShift"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse : Loan Broker Demo : OpenShift"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44255",
+      "_score": 1.0,
+      "fields": {
+        "duration": [555.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/84674508"],
+        "thumbnail": ["https://i.vimeocdn.com/video/461630917_200x150.jpg"],
+        "sys_description": ["This demo shows JBoss Fuse 6.1 Early Access running on a laptop. It shows how, from a Fuse container, to create an ActiveMQ message broker cluster; then run the Loan Broker demo and view the activity on the ActiveMQ queues and show Apache Camel routes running. Then how to view whats happening inside the system via logs, queues or camel routes. The entire demo is shot using Google Chrome accessing the Fuse Management Console which is implemented via the hawtio open source project (http://hawt.io/)"],
+        "sys_created": ["2014-01-21T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "fuse"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse : Loan Broker Demo : on laptop"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44245",
+      "_score": 1.0,
+      "fields": {
+        "duration": [254.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/82211288"],
+        "thumbnail": ["https://i.vimeocdn.com/video/458526987_200x150.jpg"],
+        "sys_description": ["This video focuses on the JBoss Hybrid (Apache Cordova) Tooling export to XCode capability, so you can run the app on your actual iOS device. You should also check out http://vimeo.com/81565404"],
+        "sys_created": ["2013-12-18T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["JBoss Hybrid Mobile Tools Export iPhone Deployment"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44235",
+      "_score": 1.0,
+      "fields": {
+        "duration": [633.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/82204444"],
+        "thumbnail": ["https://i.vimeocdn.com/video/458525564_200x150.jpg"],
+        "sys_description": ["This video focuses on the installation of JBoss Tools from Eclipse Marketplace, then Hybrid Mobile Tools via JBoss Central and then walks you through a basic use of our Apache Cordova tooling, along with CordovaSim (Ripple) simulator. Finally, it carries through with the deployment to my iPhone 5S via XCode and apple.com/developer You should also check out: http://vimeo.com/81565404 and http://www.youtube.com/watch?v=hbZ-wZCJ7Xs I did edit out the various downloading/installing/waiting time"],
+        "sys_created": ["2013-12-18T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Hybrid HTML5 Application Development with Apache Cordova (Phonegap) Part I"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44225",
+      "_score": 1.0,
+      "fields": {
+        "duration": [741.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/81565404"],
+        "thumbnail": ["https://i.vimeocdn.com/video/457721991_200x150.jpg"],
+        "sys_description": ["This video shows you JBoss Developer Studio 7.1's new Apache Cordova (Phonegap) Tools - for building HTML5-based Hybrid applications for Android and iOS (iPhone, iPad). JBDS 7.1/Tools 4.1.1 will be GA soon and then you can easily pick it up in the Eclipse Marketplace https://community.jboss.org/en/tools/blog/2013/12/02/candidate-release-time and once GA it will be available at: https://www.jboss.org/products/jbds.html Questions: - Twitter @burrsutter - Forums https://community.jboss.org/en/tools?view=discussions The copy&paste code that is shown: // index.js, inside deviceready: function() $.getJSON(\"http://mobile-html5.rhcloud.com/rest/members\", function(data) { $(\"#contacts\").empty(); var items = []; $.each(data, function(key, val) { console.log(\"item: \" + key + \" \" + val.name); items.push(\"\" + val.name +\"\"); }); $(\"#contacts\").append(items); $(\"#contacts\").listview(\"refresh\"); }); // index.html, in page-3 content X Y Z // index.js, after bind, before deviceready onAccSuccess: function(acceleration) { $(\"#accX\").html('Acceleration X: ' + acceleration.x); $(\"#accY\").html('Acceleration Y: ' + acceleration.y); $(\"#accZ\").html('Acceleration Z: ' + acceleration.z); }, onAccError: function() { alert('ACC Error'); }, // index.js, in device ready, before $.getJSON, remember motion plugin navigator.accelerometer.watchAcceleration(app.onAccSuccess, app.onAccError, {frequency:100}); // index.html, in page-2 content Device Contacts debug // index.js, below onAccError, above deviceready onContactsSuccess: function(contacts) { $(\"#debug\").html(\"Found: \" + contacts.length); $(\"#deviceContacts\").empty(); var items = []; for (var i = 0; i < contacts.length; i++) { items.push(\"\" + contacts[i].displayName + \"\"); } $(\"#deviceContacts\").append(items); $(\"#deviceContacts\").listview(\"refresh\"); }, onContactsError: function() { $(\"#debug\").html(\"error...\"); }, // index.js, inside deviceready, below $.getJSON, contacts plugin $(\"#btnDeviceContacts\").on(\"click\", function(e) { $(\"#debug\").html(\"finding...\"); var options = new ContactFindOptions(); options.multiple = true; var fields = [\"displayName\", \"name\"]; navigator.contacts.find(fields, app.onContactsSuccess, app.onContactsError, options); });"],
+        "sys_created": ["2013-12-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Hybrid HTML5 Application Development with Apache Cordova (Phonegap) Part II"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44215",
+      "_score": 1.0,
+      "fields": {
+        "duration": [690.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/80892056"],
+        "thumbnail": ["https://i.vimeocdn.com/video/456907702_200x150.jpg"],
+        "sys_description": ["Webcast of latest JBoss Fuse 6.1 and Fuse Management Console with HswtIO! See accompanying blog post here: http://www.christianposta.com/blog/?p=345"],
+        "sys_created": ["2013-12-03T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["JBoss Fuse 6.1 + HawtIO Fuse Management Console"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44205",
+      "_score": 1.0,
+      "fields": {
+        "duration": [597.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/80625940"],
+        "thumbnail": ["https://i.vimeocdn.com/video/456595137_200x150.jpg"],
+        "sys_description": ["This video demonstrates how to start using Fuse on OpenShift with Apache Camel; creating integration flows, viewing them, making changes and performing rolling upgrades. For more details see: https://github.com/jboss-fuse/fuse-openshift-cartridge/blob/master/README.md"],
+        "sys_created": ["2013-11-29T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "fuse"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse 6.1 Early Access"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44195",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3391.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/79890483"],
+        "thumbnail": ["https://i.vimeocdn.com/video/455846794_200x150.jpg"],
+        "sys_description": ["In this Webinar Jason Greene, Brian Stansberry, and Stuart Douglas cover all of the major features in WildFly 8. Including: Java EE7 Undertow (The new high performance web server) Management Role Based Access Control"],
+        "sys_created": ["2013-11-20T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["wildfly swarm", "java ee"],
+        "target_product": ["Red Hat JBoss Enterprise Application Platform"],
+        "sys_title": ["Dive Into WildFly 8"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44185",
+      "_score": 1.0,
+      "fields": {
+        "duration": [122.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/79471028"],
+        "thumbnail": ["https://i.vimeocdn.com/video/455164074_200x150.jpg"],
+        "sys_description": ["This the AeroDoc Apache Cordova/Phonegap demo in action. The Aerogear server is running on localhost, embedded in JBoss EAP 6. Changes in the web UI and data send messages to Apple Push Notification Service and Google Cloud Messaging."],
+        "sys_created": ["2013-11-15T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Aerogear Demo - Aerodoc"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44175",
+      "_score": 1.0,
+      "fields": {
+        "duration": [295.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/76695342"],
+        "thumbnail": ["https://i.vimeocdn.com/video/451606291_200x150.jpg"],
+        "sys_created": ["2013-10-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat JBoss Data Virtualization"],
+        "sys_title": ["Red Hat JBoss Data Virtualization (Teiid) Part 3"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44165",
+      "_score": 1.0,
+      "fields": {
+        "duration": [246.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/76695167"],
+        "thumbnail": ["https://i.vimeocdn.com/video/451606678_200x150.jpg"],
+        "sys_created": ["2013-10-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat JBoss Data Virtualization"],
+        "sys_title": ["Red Hat JBoss Data Virtualization (Teiid) Part 2"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44155",
+      "_score": 1.0,
+      "fields": {
+        "duration": [423.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/76694884"],
+        "thumbnail": ["https://i.vimeocdn.com/video/451605788_200x150.jpg"],
+        "sys_description": ["Part 1: installation and configuration. Download the runtime/server http://www.jboss.org/products/datavirt.html Download JBoss Developer Studio 7 https://www.jboss.org/products/jbds.html Help-Install New Software http://download.jboss.org/jbosstools/updates/development/kepler/integration-stack/teiiddesigner/"],
+        "sys_created": ["2013-10-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat JBoss Data Virtualization"],
+        "sys_title": ["Geting Started with JBoss Data Virtualization Beta (Teiid)"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44145",
+      "_score": 1.0,
+      "fields": {
+        "duration": [543.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/75402902"],
+        "thumbnail": ["https://i.vimeocdn.com/video/449954077_200x150.jpg"],
+        "sys_description": ["This episode shows how to import, configure, deploy, and test a SwitchYard application on OpenShift."],
+        "sys_created": ["2013-09-25T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "OpenShift"],
+        "target_product": [""],
+        "sys_title": ["SwitchYard Ep 7 : SwitchYard on OpenShift"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44135",
+      "_score": 1.0,
+      "fields": {
+        "duration": [514.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/75266296"],
+        "thumbnail": ["https://i.vimeocdn.com/video/449778655_200x150.jpg"],
+        "sys_description": ["Vehicle routing with time windows. Every vehicle must arrive at a customer before the time window closes. If a vehicle arrives too earlier, before the time window opens, it must wait. For more information and other planning examples: Homepage: http://www.optaplanner.org"],
+        "sys_created": ["2013-09-24T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat Decision Manager"],
+        "sys_title": ["Optaplanner Vehicle Routing with Time Windows"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44125",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2116.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/75063161"],
+        "thumbnail": ["https://i.vimeocdn.com/video/449545429_200x150.jpg"],
+        "sys_description": ["The 2013 JBoss Keynote demo demonstrates the capabilities of Fuse (Apache Camel), Vert.x, TorqueBox, Immutant and Aerogear to create a real-time, polyglot auction application - sending bid notifications to the mobile client applications and updating the overall system dashboard instantly. In addition, the application demonstrates OpenShift auto-scaling - as new users sign into the system and begin entering bids additional gears come online to handle the load. We opened up the demo application to over 1000 live audience members and had some fun. In addition, you will get a sneak peak of some of our JBoss Developer Studio Apache Cordova tooling that is incubating in the community. The majority of the application is written in JavaScript (Aerogear) along with Ruby (TorqueBox) and Clojure (Immutant). In addition, this demonstration worked over both OpenShift and Amazon EC2 - a hybrid cloud approach."],
+        "sys_created": ["2013-09-20T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["OpenShift", "fuse"],
+        "target_product": [""],
+        "sys_title": ["JBoss Keynote Demo 2013 (Red Hat Summit 2013 Boston)"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44115",
+      "_score": 1.0,
+      "fields": {
+        "duration": [243.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/72822247"],
+        "thumbnail": ["https://i.vimeocdn.com/video/446761215_200x150.jpg"],
+        "sys_description": ["This video shows a quick demo of the OSGi based tooling available in Fuse when using hawtio"],
+        "sys_created": ["2013-08-21T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["fuse"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["OSGi tooling with Fuse and hawtio"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44105",
+      "_score": 1.0,
+      "fields": {
+        "duration": [372.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/70822309"],
+        "thumbnail": ["https://i.vimeocdn.com/video/444206495_200x150.jpg"],
+        "sys_description": ["This screencast provides a quick demonstration of the new Forge Wizards in action. JBoss Forge is our code generation technology for quickly & easily creating a new project from the database schema or perhaps just the JPA entities themselves. In this video, we show you the JSF scaffolding capability as well as the new AngularJS scaffold for UI generation."],
+        "sys_created": ["2013-07-22T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat JBoss Developer Studio"],
+        "sys_title": ["JBoss Developer Studio 7: Forge Wizards"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44095",
+      "_score": 1.0,
+      "fields": {
+        "duration": [308.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/69888787"],
+        "thumbnail": ["https://i.vimeocdn.com/video/442863048_200x150.jpg"],
+        "sys_description": ["Brief introduction on how to configure GateIn for use on a mobile or responsive site."],
+        "sys_created": ["2013-07-08T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["GateIn Mobile Site Configuration"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44085",
+      "_score": 1.0,
+      "fields": {
+        "duration": [236.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/69888393"],
+        "thumbnail": ["https://i.vimeocdn.com/video/442862586_200x150.jpg"],
+        "sys_description": ["A brief introduction to the new mobile site introduced in GateIn 3.6."],
+        "sys_created": ["2013-07-08T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Introduction to GateIn's Mobile Site"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44075",
+      "_score": 1.0,
+      "fields": {
+        "duration": [782.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/6940138"],
+        "thumbnail": ["https://i.vimeocdn.com/video/28178358_200x150.jpg"],
+        "sys_description": ["This is a very basic Riftsaw BPEL Tutorial"],
+        "sys_created": ["2009-10-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBoss Riftsaw - Getting Started Tutorial"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44065",
+      "_score": 1.0,
+      "fields": {
+        "duration": [810.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/67480300"],
+        "thumbnail": ["https://i.vimeocdn.com/video/439375166_200x150.jpg"],
+        "sys_description": ["This video demonstrates several new features in JBDS 7: - Redesigned JBoss Central (includes archetypes, quickstarts, link to TicketMonster Tutorial) - BrowserSim - sync, livereload, firebug/weinre integration) - jQuery Mobile widget palette"],
+        "sys_created": ["2013-06-02T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "java ee"],
+        "target_product": ["Red Hat JBoss Developer Studio"],
+        "sys_title": ["JBoss Developer Studio 7: jQuery Mobile"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44055",
+      "_score": 1.0,
+      "fields": {
+        "duration": [46.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/66404665"],
+        "thumbnail": ["https://i.vimeocdn.com/video/437873063_200x150.jpg"],
+        "sys_description": ["How many seconds does it take for the Red Hat JBoss Enterprise Application Platform (EAP) to start up?"],
+        "sys_created": ["2013-05-17T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat JBoss Enterprise Application Platform"],
+        "sys_title": ["Red Hat JBoss EAP is faster than an 855 foot Sky Jump"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44045",
+      "_score": 1.0,
+      "fields": {
+        "duration": [542.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/66311377"],
+        "thumbnail": ["https://i.vimeocdn.com/video/437667493_200x150.jpg"],
+        "sys_description": ["This is a short walk through the upcoming BAM dashboard component to be offered in the BPM product."],
+        "sys_created": ["2013-05-16T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["bpms", "JBoss"],
+        "target_product": ["Red Hat Process Automation Manager"],
+        "sys_title": ["A Sneak Preview of the JBoss BPM BAM Dashboard"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44035",
+      "_score": 1.0,
+      "fields": {
+        "duration": [548.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/65222228"],
+        "thumbnail": ["https://i.vimeocdn.com/video/436174954_200x150.jpg"],
+        "sys_description": ["This is a web application based on the popular framework Vaadin which is an example of an online shopping cart. This web application demonstrates interaction between a web front end and the various components provided by JBoss BRMS product. In this video we take you on a tour to install the project in minutes on your local machine, which gives you a quickstart into the world of JBoss BRMS, BPM, Rules and CEP."],
+        "sys_created": ["2013-05-01T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "rules", "bpms"],
+        "target_product": ["Red Hat Decision Manager"],
+        "sys_title": ["JBoss BRMS Cool Store Demo Part I - Installation"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44025",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1255.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/63725631"],
+        "thumbnail": ["https://i.vimeocdn.com/video/434100310_200x150.jpg"],
+        "sys_description": ["This demo will show you how to use JBoss Forge and JBoss Developer Studio to reverse engineer a Java EE application from an existing database and deploy it on OpenShift."],
+        "sys_created": ["2013-04-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["OpenShift"],
+        "target_product": [""],
+        "sys_title": ["From Zero to Cloud in Almost No Time"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44015",
+      "_score": 1.0,
+      "fields": {
+        "duration": [503.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/62433925"],
+        "thumbnail": ["https://i.vimeocdn.com/video/432317374_200x150.jpg"],
+        "sys_description": ["This project was started to give one the ability to run your JBoss Business Rules Management System (BRMS) business processes through some sort of a testing and load framework. We have take just the initial steps, with more work to be done moving forward, but the basics are there. In this video we take you on a tour to setup and get started with this project."],
+        "sys_created": ["2013-03-22T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "bpms", "rules"],
+        "target_product": ["Red Hat Decision Manager"],
+        "sys_title": ["JBoss BRMS Performance Testing Framework initial release"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "44005",
+      "_score": 1.0,
+      "fields": {
+        "duration": [668.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/59482480"],
+        "thumbnail": ["https://i.vimeocdn.com/video/413412788_200x150.jpg"],
+        "sys_description": ["This is part two of three that walks you through setting up the developer tooling, JBoss Developer Studio, with the project Red Hat JBoss Home Loan Demo. We walk through the server setup, rules and business process tooling setup, importing your projects, building the bpm project, deploying the project artifacts and running them on the server for integration testing. This demo integrates JBoss SOA Platform and JBoss Business Rules Management System, using ESB, Services, Rules, BPEL orchestration, and Business Process Management."],
+        "sys_created": ["2013-02-12T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "rules"],
+        "target_product": [""],
+        "sys_title": ["homeloan-integration-demo-partII"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43995",
+      "_score": 1.0,
+      "fields": {
+        "duration": [299.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/57942662"],
+        "thumbnail": ["https://i.vimeocdn.com/video/401866560_200x150.jpg"],
+        "sys_description": ["This video explores the basic building blocks of SwitchYard applications and introduces some important SCA terminology used in our configuration metadata, documentation, and tooling."],
+        "sys_created": ["2013-01-22T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["SwitchYard Ep 5 : Application Basics"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43985",
+      "_score": 1.0,
+      "fields": {
+        "duration": [348.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/57879770"],
+        "thumbnail": ["https://i.vimeocdn.com/video/401391535_200x150.jpg"],
+        "sys_description": ["This video provides a quick tour of the Eclipse tooling and introduces basic functions of the editor."],
+        "sys_created": ["2013-01-21T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["SwitchYard Ep 4 : Eclipse Tooling Introduction"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43975",
+      "_score": 1.0,
+      "fields": {
+        "duration": [375.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/57706099"],
+        "thumbnail": ["https://i.vimeocdn.com/video/400128192_200x150.jpg"],
+        "sys_description": ["This episode covers the SwitchYard installer and standalone server distribution. It also demonstrates deployment of an application and viewing details of that application in our integrated admin console."],
+        "sys_created": ["2013-01-18T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["SwitchYard Ep 3 : Installation and Runtime"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43965",
+      "_score": 1.0,
+      "fields": {
+        "duration": [312.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/57623996"],
+        "thumbnail": ["https://i.vimeocdn.com/video/399528730_200x150.jpg"],
+        "sys_description": ["This video introduces the Quickstart applications available with SwitchYard and steps through testing and deploying an example application."],
+        "sys_created": ["2013-01-17T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["SwitchYard Ep 2 : Quickstarts"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43955",
+      "_score": 1.0,
+      "fields": {
+        "duration": [260.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/57604638"],
+        "thumbnail": ["https://i.vimeocdn.com/video/402004270_200x150.jpg"],
+        "sys_description": ["The first video in the SwitchYard Video Series provides background on the series itself and details on how to get started using the project."],
+        "sys_created": ["2013-01-17T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["SwitchYard Ep 1 : Getting Started"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43945",
+      "_score": 1.0,
+      "fields": {
+        "duration": [338.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/55454764"],
+        "thumbnail": ["https://i.vimeocdn.com/video/383789419_200x150.jpg"],
+        "sys_description": ["Starting from an empty project, we build up the classic client-side To-Do List Web Application using the Errai Framework from JBoss. Keep in mind that all the Java code and HTML templating in this demo is happening in the browser. That's right, even the CDI events and JPA calls are running inside the browser (the \"database\" is window.localStorage.) The source code for this demo is available at https://github.com/errai/errai/tree/master/errai-jpa/demos/errai-jpa-demo-todo-list Learn more about Errai at http://jboss.org/errai"],
+        "sys_created": ["2012-12-12T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["Errai To-Do List"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43935",
+      "_score": 1.0,
+      "fields": {
+        "duration": [200.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/54314451"],
+        "thumbnail": ["https://i.vimeocdn.com/video/377802041_200x150.jpg"],
+        "sys_description": ["A screencast of the polyglot-widgets demo. Demo: http://polyglotwidgets-richfaces.rhcloud.com/ Blog: http://www.bleathem.ca/blog/2012/11/polyglot-widgets.html This screen cast demonstrates use of the RichFaces standalone javascript widgets with three different web frameworks (JSF/RichFaces, GWT/Errai, HTML 5/Aerogear). Applications with a consistent L&F and UX are achievable using these standalone widgets. Additionally CDI provides a common programming model and a single place to store server-side state. Finally asynchronous updates are demonstrated taking advantage of RichFaces push, Errai CDI, and HTML 5 server-side events."],
+        "sys_created": ["2012-11-26T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Polyglot Widgets"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43925",
+      "_score": 1.0,
+      "fields": {
+        "duration": [78.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/52088705"],
+        "thumbnail": ["https://i.vimeocdn.com/video/359365754_200x150.jpg"],
+        "sys_description": ["Aufnahme meines Vortrags beim JBoss One Day Talk 2012 am 10. Oktober 2012 in München ( http://onedaytalk.org ). Die Folien können hier auch als PDF heruntergeladen werden: http://pilhuhn.blogspot.de/2012/10/another-nice-jboss-onedaytalk-is-over.html"],
+        "sys_created": ["2012-10-24T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["RHQ und seine Schnittstellen"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43915",
+      "_score": 1.0,
+      "fields": {
+        "duration": [125.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/50766871"],
+        "thumbnail": ["https://i.vimeocdn.com/video/349770101_200x150.jpg"],
+        "sys_description": ["HornetQ is an open source asynchronous messaging project from JBoss. It is an example of Message Oriented Middleware. HornetQ is an open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system. This video shows how to get started, and some of the new features for the next coming HornetQ 2.3"],
+        "sys_created": ["2012-10-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "messaging"],
+        "target_product": [""],
+        "sys_title": ["Getting Started With HornetQ"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43905",
+      "_score": 1.0,
+      "fields": {
+        "duration": [456.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/50627742"],
+        "thumbnail": ["https://i.vimeocdn.com/video/348789090_200x150.jpg"],
+        "sys_description": ["S-RAMP is an emerging OASIS standard for a Service Oriented Architecture repository (and accompanying protocol for accessing that repository). JBoss Overlord has chosen S-RAMP as the core repository around which SOA Governance functionality is being built. Milestone 2 of the JBoss Overlord S-RAMP project supports some of the core S-RAMP repository functionality as well as integration with the Maven build automation framework. This webcast will show off some of these features, demonstrating them using a variant of the JBoss Switchyard multiApp demo."],
+        "sys_created": ["2012-10-02T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["S-RAMP Milestone 2 Screencast"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43895",
+      "_score": 1.0,
+      "fields": {
+        "duration": [207.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/50209127"],
+        "thumbnail": ["https://i.vimeocdn.com/video/346033333_200x150.jpg"],
+        "sys_description": ["In this demo you can see how to install and use OpenSearch plugin for JBoss Community Search service http://search.jboss.org in Firefox, Google Chrome and Safari browsers."],
+        "sys_created": ["2012-09-26T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["OpenSearch Support in JBoss Community Search"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43885",
+      "_score": 1.0,
+      "fields": {
+        "duration": [188.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/4908909"],
+        "thumbnail": ["https://i.vimeocdn.com/video/13958971_200x150.jpg"],
+        "sys_description": ["Scheduled jobs allow for cron-like functionality to be deployed directly within your Rails application running on TorqueBox."],
+        "sys_created": ["2009-05-30T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["ruby", "JBoss"],
+        "target_product": [""],
+        "sys_title": ["Scheduled Jobs with TorqueBox"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43875",
+      "_score": 1.0,
+      "fields": {
+        "duration": [316.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/4900458"],
+        "thumbnail": ["https://i.vimeocdn.com/video/13909566_200x150.jpg"],
+        "sys_description": ["In this screencast, the TorqueBox team demonstrates installation and configuration of the TorqueBox server. Then we demonstrate building a Ruby-on-Rails application from scratch."],
+        "sys_created": ["2009-05-29T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["ruby", "JBoss", "java ee"],
+        "target_product": [""],
+        "sys_title": ["Getting Started with TorqueBox"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43865",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2405.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/47944743"],
+        "thumbnail": ["https://i.vimeocdn.com/video/339179965_200x150.jpg"],
+        "sys_description": ["Using Forge helps streamline application development, ease the pain of setting up enterprise testing and integration, and utilizes the full power of JBoss AS7 for development, testing, and deployment. Combined with fully-fledged visual integration with Eclipse and JBoss Developer Studio, there's never been more power at your fingertips."],
+        "sys_created": ["2012-08-21T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "Red Hat Developer Toolset", "java ee"],
+        "target_product": [""],
+        "sys_title": ["JBoss Forge - Productivity, Reliability, Testability"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43855",
+      "_score": 1.0,
+      "fields": {
+        "duration": [160.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/46784193"],
+        "thumbnail": ["https://i.vimeocdn.com/video/325899793_200x150.jpg"],
+        "sys_description": ["Stage 1 - Metrics Implementation"],
+        "sys_created": ["2012-08-01T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBoss Admin Android Preview - Stage.1"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43845",
+      "_score": 1.0,
+      "fields": {
+        "duration": [590.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/45895919"],
+        "thumbnail": ["https://i.vimeocdn.com/video/319350128_200x150.jpg"],
+        "sys_description": ["This screencast shows GateIn integration with Salesforce and Google Apps vendors for SAML2 SSO scenarios. These scenarios are shown: - GateIn as SAML Identity Provider, Salesforce as SAML Service Provider - GateIn as SAML Identity Provider, Google Apps as SAML Service Provider - GateIn as SAML Service Provider, Salesforce as SAML Identity Provider"],
+        "sys_created": ["2012-07-17T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["GateIn+SAML2: Integration with Salesforce and Google Apps"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43835",
+      "_score": 1.0,
+      "fields": {
+        "duration": [509.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/45731657"],
+        "thumbnail": ["https://i.vimeocdn.com/video/318137011_200x150.jpg"],
+        "sys_description": ["This demonstration shows off JBoss BRMS 5.3, running on Enterprise Application Platform 6, at OpenShift and is an example of an Intelligent, Integrated Enterprise. Our Aerogear team built mobile applications based on HTML5 + Apache Cordova to enable our sales staff, the sales manager and the sales VP. Our Errai team built a dynamic Leader Board that provides a real-time view into the back-end system, pushing change events out to a tablet or desktop web browser. Our jBPM team built the back-end BPMN2 business workflow and decision table as well as provides a business process monitor - so you can see inflight business process instances. This demo codebase is open sourced, please do git clone it and build it on your local instances of JBoss EAP and BRMS, perhaps even deploying it to OpenShift as we did. For more information and to watch the live demonstration using the audience as our temporary sales team check out this article: http://www.jboss.org/jbw2012keynote"],
+        "sys_created": ["2012-07-13T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "bpms"],
+        "target_product": ["Red Hat Decision Manager"],
+        "sys_title": ["JBoss Toy Store Demonstration"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43825",
+      "_score": 1.0,
+      "fields": {
+        "duration": [461.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/45260307"],
+        "thumbnail": ["https://i.vimeocdn.com/video/314692684_200x150.jpg"],
+        "sys_description": ["This Screencast shows the usage of the JBoss Forge Hibersap plugin. Installation, configuration and usage are shown and a small web application is using the generated classes to display data from a SAP system."],
+        "sys_created": ["2012-07-05T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["java ee", "JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBoss Forge Hibersap Plugin Screencast"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43815",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1261.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/44636181"],
+        "thumbnail": ["https://i.vimeocdn.com/video/310150031_200x150.jpg"],
+        "sys_description": ["TicketMonster is one of our demonstration applications from the JBoss Developer Framework http://www.jboss.org/jdf/ TicketMonster shows off Java EE6 with multiple UIs such as HTML5 + REST, JSF2 and GWT+Errai. And JBoss Developer Framework includes extensive tutorials on how to get started developing applications the JBoss Way."],
+        "sys_created": ["2012-06-25T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "REST"],
+        "target_product": [""],
+        "sys_title": ["TicketMonster on EAP6 on OpenShift"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43805",
+      "_score": 1.0,
+      "fields": {
+        "duration": [373.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/44550097"],
+        "thumbnail": ["https://i.vimeocdn.com/video/309523104_200x150.jpg"],
+        "sys_description": ["This video quickly walks through using the HTML5 archetype in JBoss Developer Studio to create a mobile application and deploy it to OpenShift. To get started make sure to setup an account at OpenShift http://openshift.com Download Enterprise Application Platform 6 https://access.redhat.com/downloads/evals Download JBDS 5 https://devstudio.jboss.com/earlyaccess/ Follow Tutorials http://www.jboss.org/developer http://www.jboss.org/jdf/examples/ticket-monster/tutorial/Introduction/"],
+        "sys_created": ["2012-06-22T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["OpenShift"],
+        "target_product": [""],
+        "sys_title": ["HTML5 Mobile with EAP6 at Openshift"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43795",
+      "_score": 1.0,
+      "fields": {
+        "duration": [645.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/44548968"],
+        "thumbnail": ["https://i.vimeocdn.com/video/309526163_200x150.jpg"],
+        "sys_description": ["This videos shows how to enable debug mode on OpenShift and JBoss Developer Studio 5 to connect to the JBoss application via Port Forwarding. The steps to do this manually are: 1) Create an empty file .openshift/markers/enable_jpda 2) Commit and push this to OpenShift 3) Right click on server, choose OpenShift > Port Forwarding... 4) Click \"Start All\", Close the dialog 5) Use \"Debug As\" > \"Confgurations\" and setup a Remote Java Application 6) Set the project, host should be localhost and port 8787 7) If you wish go to source tab and add \"Maven Source Lookup Container\" and point to a local JBoss Application Platform 6 8) Click Debug"],
+        "sys_created": ["2012-06-22T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["Debugging", "OpenShift", "JBoss"],
+        "target_product": [""],
+        "sys_title": ["How to Debug JBoss Applications on OpenShift"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43785",
+      "_score": 1.0,
+      "fields": {
+        "duration": [504.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/44493118"],
+        "thumbnail": ["https://i.vimeocdn.com/video/309095414_200x150.jpg"],
+        "sys_description": ["This video demonstrates starting with the web console to build our first application, then acquiring JBoss Developer Studio to git clone/import that default template application, make a change and push it back up to OpenShift"],
+        "sys_created": ["2012-06-22T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["OpenShift"],
+        "target_product": ["Red Hat JBoss Enterprise Application Platform"],
+        "sys_title": ["Starting with the new OpenShift web console to build my first JBoss Enterprise Application Platform 6 application"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43775",
+      "_score": 1.0,
+      "fields": {
+        "duration": [192.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/143059283"],
+        "thumbnail": ["https://i.vimeocdn.com/video/540530788_200x150.jpg"],
+        "sys_description": ["Red Hat® JBoss® BPM Suite includes powerful new tools for optimizing and scheduling business resources. Learn how the Business Resource Planner can tackle a wide range of planning problems, from delivery routing to shift scheduling and even managing compute resources in the cloud. Learn more about JBoss BPM Suite and the business resource planner at http://redhat.com/bpmsuite"],
+        "sys_created": ["2015-10-20T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "rules", "bpms"],
+        "target_product": ["Red Hat Process Automation Manager"],
+        "sys_title": ["Solve optimization and scheduling problems with business resource planning"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43765",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3941.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/11191111"],
+        "thumbnail": ["https://i.vimeocdn.com/video/60811416_200x150.jpg"],
+        "sys_description": ["Andrew Lee Rubinger speaks about EJB 3.1 and testing at Boston JBoss User Group."],
+        "sys_created": ["2010-04-24T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["EJB 3.1 (Part 2) - Andrew Lee Rubinger"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43755",
+      "_score": 1.0,
+      "fields": {
+        "duration": [297.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/106072405"],
+        "thumbnail": ["https://i.vimeocdn.com/video/489059999_200x150.jpg"],
+        "sys_description": ["This is a continuation of our first scripting screencast available here: https://vimeo.com/106071915 In this second part, we write up a simple script which will intercept deleted resources and move them to an archive collection. This is done using the client object which allows for peforming any of the CRUD operations on any LiveOak resource."],
+        "sys_created": ["2014-09-13T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["javascript"],
+        "target_product": [""],
+        "sys_title": ["LiveOak Scripting Screencast: Using the LiveOak Client"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43745",
+      "_score": 1.0,
+      "fields": {
+        "duration": [444.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/106071915"],
+        "thumbnail": ["https://i.vimeocdn.com/video/489059185_200x150.jpg"],
+        "sys_description": ["A brief introduction to resource triggered scripting in the LiveOak 1.0.0 Alpha 02 Release. In this screencast we go over how to use scripting to read resource properties during a create, how to add a new property with a server side timestamp, and how to throw an error is the passed properties don't match the exact format that we are expecting."],
+        "sys_created": ["2014-09-13T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["javascript"],
+        "target_product": [""],
+        "sys_title": ["LiveOak Scripting Intro"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43735",
+      "_score": 1.0,
+      "fields": {
+        "duration": [421.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/77953694"],
+        "thumbnail": ["https://i.vimeocdn.com/video/453260285_200x150.jpg"],
+        "sys_description": ["Fuse Service Works Application Overview"],
+        "sys_created": ["2013-10-28T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Fuse Service Works Getting Started Part 3"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43725",
+      "_score": 1.0,
+      "fields": {
+        "duration": [419.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/77948747"],
+        "thumbnail": ["https://i.vimeocdn.com/video/453260433_200x150.jpg"],
+        "sys_description": ["Configuring JBoss Developer Studio"],
+        "sys_created": ["2013-10-28T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Fuse Service Works Getting Started Part 2"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43705",
+      "_score": 1.0,
+      "fields": {
+        "duration": [473.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/77941255"],
+        "thumbnail": ["https://i.vimeocdn.com/video/453260498_200x150.jpg"],
+        "sys_description": ["This video covers the installation of Fuse Service Works"],
+        "sys_created": ["2013-10-28T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["rules"],
+        "target_product": [""],
+        "sys_title": ["Fuse Service Works Getting Started Part 1"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43695",
+      "_score": 1.0,
+      "fields": {
+        "duration": [323.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/27478061"],
+        "thumbnail": ["https://i.vimeocdn.com/video/182473377_200x150.jpg"],
+        "sys_description": ["This video demonstrates how to install the OpenShift Express client utilities on the Fedora operating system. Furthermore, it provides a walk through of signing up for an RHN account using the OpenShift website and details steps to allow a user to create their first express domain. Please go to http://openshift.redhat.com for more details."],
+        "sys_created": ["2011-08-09T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["OpenShift", "JBoss", "java ee"],
+        "target_product": [""],
+        "sys_title": ["Getting Started with OpenShift Express on Fedora"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43685",
+      "_score": 1.0,
+      "fields": {
+        "duration": [188.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/27444290"],
+        "thumbnail": ["https://i.vimeocdn.com/video/182503831_200x150.jpg"],
+        "sys_description": ["This video demonstrates how to install the OpenShift Express client utilities on a Mac. Furthermore, it provides a walk through of signing up for an RHN account using the OpenShift website and details steps to allow a user to create their first express domain. Please go to http://openshift.redhat.com for more details."],
+        "sys_created": ["2011-08-08T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat OpenShift Container Platform"],
+        "sys_title": ["Getting Started with OpenShift Express on Mac"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43675",
+      "_score": 1.0,
+      "fields": {
+        "duration": [236.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/22463907"],
+        "thumbnail": ["https://i.vimeocdn.com/video/145423982_200x150.jpg"],
+        "sys_description": ["A demonstration of Seam Forge being used to generate fully-functional Java EE applications in a matter of minutes. How many times have you wanted to start a new project in Java EE, but struggled to put all the pieces together? Has the Maven archetype syntax left you scratching your head? Everyone else is talking about Rails, Grails, and Roo, and you’re left thinking, “I wish it were that easy for me.” Well, there’s good news: You don’t have to leave Java EE just to find a developer tool that makes starting out simple. Seam Forge is heating up Java EE, and is ready to work it into a full-fledged project. Seam Forge is also an incremental enhancement tool that lets you to take an existing Java EE project and safely work in new functionality. Seam Forge comprehends your entire project, including the abstract structure of the files, and can make intelligent decisions on how and what to change."],
+        "sys_created": ["2011-04-15T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "java ee"],
+        "target_product": [""],
+        "sys_title": ["From Zero to Java EE: JBoss Forge in Action"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43665",
+      "_score": 1.0,
+      "fields": {
+        "duration": [295.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/32900477"],
+        "thumbnail": ["https://i.vimeocdn.com/video/222913297_200x150.jpg"],
+        "sys_description": ["In this session, Pete will introduce to OpenShift, the fi rst Platformas-a-Service available for Java EE. He will show you how to create a new Java EE application and deploy it on OpenShift Express, a free, shared multi-tenant environment made to be as simple as possible to get started quickly. He’ll then deploy the same application to Openshift Flex, which gives you dedicated VMs and DevOps control over architecture along with monitoring. Pete will then outline some of the updates coming in Java EE 7 to support multi-tenancy – a key component of any PaaS."],
+        "sys_created": ["2011-11-30T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["OpenShift", "JBoss", "PaaS", "DevOps"],
+        "target_product": [""],
+        "sys_title": ["Java EE in the Cloud"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43655",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3594.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/42040953"],
+        "thumbnail": ["https://i.vimeocdn.com/video/291547636_200x150.jpg"],
+        "sys_description": ["Emmanuel Bernard After graduating from Supelec (French \"Grande Ecole\"), Emmanuel has spent a few years in the retail industry as developer and architect where he started to be involved in the ORM space. He joined the Hibernate team in 2003 and is now a platform architect at JBoss, by Red Hat. Emmanuel is the lead developer of Hibernate Annotations and Hibernate EntityManager, two key projects on top of Hibernate Core implementing the Java Persistence(tm) specification. He also has founded and leads Hibernate Search and Hibernate Validator. Emmanuel is a member of the JPA 2.0 expert group and the spec lead of JSR 303: Bean Validation. He is a regular speaker at various conferences and JUGs, including JavaOne, JBoss World and Devoxx and the co-author of Hibernate Search in Action published by Manning. Hibernate OGM: JPA on Infinispan: when PaaS persistence meets Java EE PaaS (Platform as a Service) is all the buzz these days. But how and where do you store your data is the real challenge. In a data grid to benefit from its scalability? Via a new proprietary API? JBoss users of our enterprise middleware systems are accustomed to easy persistence via Hibernate and JPA (Java Persistence API). What if Hibernate could store your data in a grid? Hibernate Object/Grid Mapper (OGM) aims at offering a JPA front end (object manipulation and JP-QL query) to applications while storing and querying the data from a key/value grid like Infinispan. In other words, offering a familiar and well known API but benefiting from the new scalability possibilities of distributed data grids like Infinispan. That includes trying to support existing applications using JPA. In this presentation, we will see how JBoss is leveraging its existing technology to build an OGM (Object/Grid Mapper). Hibernate Core (JPA), Hibernate Search (object search engine), Teiid (query federation engine) and of course Infinispan (distributed data grid) are the foundation to this adventure. We will cover in details how the various bricks fit together, what the secret sauce is and how to use the solution in your applications."],
+        "sys_created": ["2012-05-12T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["GeeCON 2011: Hibernate OGM"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43645",
+      "_score": 1.0,
+      "fields": {
+        "duration": [23.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/26128757"],
+        "thumbnail": ["https://i.vimeocdn.com/video/172540856_200x150.jpg"],
+        "sys_description": ["JBoss Application Server 7 starting at the same time as Firefox, and completing start up in time for the browser to access the server."],
+        "sys_created": ["2011-07-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBoss Speed Tests: AS 7 vs. Firefox"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43635",
+      "_score": 1.0,
+      "fields": {
+        "duration": [305.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/35705170"],
+        "thumbnail": ["https://i.vimeocdn.com/video/244320996_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2012-01-26T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["5 Minutes to Mobile"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43625",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2488.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/23280944"],
+        "thumbnail": ["https://i.vimeocdn.com/video/151437723_200x150.jpg"],
+        "sys_description": ["Lincoln Baxter, III presents \"Forge\", a new technology-agnostic RAD framework centered around Java and Java EE applications."],
+        "sys_created": ["2011-05-04T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBW - Forge New Ground in Rapid Enterprise Java Development"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43615",
+      "_score": 1.0,
+      "fields": {
+        "duration": [256.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/33977278"],
+        "thumbnail": ["https://i.vimeocdn.com/video/231015167_200x150.jpg"],
+        "sys_description": ["In this short screencast, we show you how to get started quickly with the Ruby Sinatra framework on TorqueBox and make use of TorqueBox::Session::ServletStore for distributed sessions."],
+        "sys_created": ["2011-12-20T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["ruby"],
+        "target_product": [""],
+        "sys_title": ["Introduction to Sinatra on TorqueBox"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43605",
+      "_score": 1.0,
+      "fields": {
+        "duration": [260.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/33299335"],
+        "thumbnail": ["https://i.vimeocdn.com/video/225902845_200x150.jpg"],
+        "sys_description": ["This 5 minute introductory video will walk you through an installation of TorqueBox 2.0 using RVM and the torquebox-server gem."],
+        "sys_created": ["2011-12-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["ruby", "JBoss"],
+        "target_product": [""],
+        "sys_title": ["Installing TorqueBox 2.0"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43595",
+      "_score": 1.0,
+      "fields": {
+        "duration": [252.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/26278975"],
+        "thumbnail": ["https://i.vimeocdn.com/video/182576519_200x150.jpg"],
+        "sys_description": ["Part 1 of an 8 part screencast series on using Java EE 6 with OpenShift Express. OpenShift Express is a free Platform as a Service from Red Hat allowing you to run applications on JBoss AS 7. You can view the whole series at http://bit.ly/openshift-javaee6, find more about the example application at http://bit.ly/as7tutorial, and sign up for OpenShift at http://openshift.redhat.com."],
+        "sys_created": ["2011-07-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat OpenShift Container Platform"],
+        "sys_title": ["Java EE 6 with OpenShift - 1. Deploy the Kitchensink quickstart"]
+      }
+    }]
+  }
+}

@@ -1,0 +1,783 @@
+{
+  "uuid": "c020c998-6a91-4ccd-ac18-8500256f455e",
+  "took": 5,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "failed": 0
+  },
+  "hits": {
+    "total": 348,
+    "max_score": 1.0,
+    "hits": [{
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43585",
+      "_score": 1.0,
+      "fields": {
+        "duration": [3874.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/25772958"],
+        "thumbnail": ["https://i.vimeocdn.com/video/169899083_200x150.jpg"],
+        "sys_description": ["Lincoln Baxter, III and Dan Allen present Seam Forge at JAXConf, San Jose - June 20-23, 2011 How many times have you wanted to start a new project in Java EE, but struggled to put all the pieces together? Has the Maven archetype syntax left you scratching your head? Everyone else is talking about Rails, Grails, and Roo, and you're left thinking, \"I wish it were that easy for me.\" Well, there's good news: You don't have to leave Java EE just to find a developer tool that makes starting out simple. Seam Forge is heating up Java EE, and is ready to work it into a full-fledged project. It's also an incremental enhancement tool that lets you to take an existing Java EE projects and safely work-in new functionality. Seam Forge comprehends your entire project, including the abstract structure of the files, and can make intelligent decisions of how and what to change."],
+        "sys_created": ["2011-06-29T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "java ee", "Red Hat Developer Toolset"],
+        "target_product": [""],
+        "sys_title": ["JAX - Forge New Ground in Rapid Enterprise Software Development"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43575",
+      "_score": 1.0,
+      "fields": {
+        "duration": [2727.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/24776447"],
+        "thumbnail": ["https://i.vimeocdn.com/video/162636534_200x150.jpg"],
+        "sys_description": [""],
+        "sys_created": ["2011-06-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Modular Class Loading with JBoss Modules"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43565",
+      "_score": 1.0,
+      "fields": {
+        "duration": [323.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/26074724"],
+        "thumbnail": ["https://i.vimeocdn.com/video/172096817_200x150.jpg"],
+        "sys_description": ["This screencast shows you how to create a new project for JBoss AS 7 both in Eclipse and on the command line. You can read a full tutorial at https://docs.jboss.org/author/display/AS7/Getting+Started+Developing+Applications+Guide#GettingStartedDevelopingApplicationsGuide-Creatingyourownapplication. If you want to follow along, the archetype catalog for JBoss is available at https://repository.jboss.org/nexus/content/groups/public/archetype-catalog.xml and the command for generating an archetype is mvn archetype:generate \\ -DarchetypeArtifactId=jboss-javaee6-webapp \\ -DarchetypeGroupId=org.jboss.spec.archetypes \\ -DarchetypeVersion=7.0.0.CR1 \\ -DarchetypeRepository=http://repository.jboss.org/nexus/content/groups/public"],
+        "sys_created": ["2011-07-06T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Create a new JBoss AS 7 project"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43555",
+      "_score": 1.0,
+      "fields": {
+        "duration": [71.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/26128736"],
+        "thumbnail": ["https://i.vimeocdn.com/video/201919952_200x150.jpg"],
+        "sys_description": ["JBoss Forge used to generate and deploy a basic Java Server Faces application to JBoss AS 7 in Lightning speed! What I typed into Forge: $ new-project --named example --topLevelPackage com.example --type war --projectFolder example $ setup faces $ build $ as7 deploy"],
+        "sys_created": ["2011-07-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "java ee"],
+        "target_product": [""],
+        "sys_title": ["$#@!'ing Fast - JBoss Forge and JBoss AS 7"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43545",
+      "_score": 1.0,
+      "fields": {
+        "duration": [282.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/34049944"],
+        "thumbnail": ["https://i.vimeocdn.com/video/231578227_200x150.jpg"],
+        "sys_description": ["In this video we show you how create and deploy a standalone long-running service in Ruby on TorqueBox 2.x."],
+        "sys_created": ["2011-12-21T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["microservices"],
+        "target_product": [""],
+        "sys_title": ["Long Running Services in TorqueBox"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43535",
+      "_score": 1.0,
+      "fields": {
+        "duration": [351.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/25831010"],
+        "thumbnail": ["https://i.vimeocdn.com/video/170577275_200x150.jpg"],
+        "sys_description": ["In this screencast we show you 5 ways to deploy your application to JBoss AS 7. Enjoy! Getting Started Guide and Quickstarts at http://bit.ly/as7tutorials"],
+        "sys_created": ["2011-06-30T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["5 ways to deploy your application to JBoss AS 7"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43525",
+      "_score": 1.0,
+      "fields": {
+        "duration": [654.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/101266094"],
+        "thumbnail": ["https://i.vimeocdn.com/video/482998169_200x150.jpg"],
+        "sys_description": ["For people that are getting started to know Fuse, and wants to get their hands dirty and develop a JBoss Fuse project for the first time. Contains Fabric8 deployment and New Fuse management console There is one thing I forgot to mention in the Video, For Fabric8 plugin to deploy the profile into your JBoss Fuse, need to edit your ~/.m2/settings.xml file to add the fabric server's user and password so that the maven plugin can login to the fabric.. e.g. add this to the <server> element: <server> <id>fabric8.upload.repo</id> <username>admin</username> <password>admin</password> </server>"],
+        "sys_created": ["2014-07-21T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse Getting Started Home Loan Demo Part 5"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43515",
+      "_score": 1.0,
+      "fields": {
+        "duration": [502.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/61541717"],
+        "thumbnail": ["https://i.vimeocdn.com/video/484012510_200x150.jpg"],
+        "sys_description": ["This introduction has been setup to get you started as quickly as possible with the newest member of the JBoss Integration portfolio, JBoss Fuse. We have put together a three part video tour of the product, an example quick setup of the product and the installation of an existing project that is then deployed on JBoss Fuse. The product is installed and configured right before your very eyes in no time at all with a fully automated project setup script. The server setup is shown using the latest JBoss Developer Studio and you are ready to get going."],
+        "sys_created": ["2013-03-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Part 2: Getting Started with JBoss Fuse"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43505",
+      "_score": 1.0,
+      "fields": {
+        "duration": [242.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/137848037"],
+        "thumbnail": ["https://i.vimeocdn.com/video/533256722_200x150.jpg"],
+        "sys_description": ["Redhat Mobile Sharepoint connector."],
+        "sys_created": ["2015-08-31T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Sharepoint Connector"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43495",
+      "_score": 1.0,
+      "fields": {
+        "duration": [550.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/130987010"],
+        "thumbnail": ["https://i.vimeocdn.com/video/523060333_200x150.jpg"],
+        "sys_description": ["This video shows the usability improvements made to the Camel Editor and the properties view to ease the development of Apache Camel routes within JBoss Fuse Tooling. Highlights: Camel Component specific palette entries Structured property editor for endpoint parameters Field-level validation and contextual highlighting for required fields Automatic injection of Maven dependencies Palette extensions"],
+        "sys_created": ["2015-06-17T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["fuse", "integration"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse Tooling - Usability Improvements"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43485",
+      "_score": 1.0,
+      "fields": {
+        "duration": [437.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/142857726"],
+        "thumbnail": ["https://i.vimeocdn.com/video/540271652_200x150.jpg"],
+        "sys_description": ["This is a screencast showing how create and watch a Continuous Delivery pipeline using Fabric8, Jenkins and OpenShift. See the blog for more background: https://medium.com/@jstrachan/create-and-explore-continuous-delivery-pipelines-with-fabric8-and-jenkins-on-openshift-661aa82cb45a"],
+        "sys_created": ["2015-10-19T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["DevOps", "jenkins", "OpenShift"],
+        "target_product": ["Red Hat AMQ"],
+        "sys_title": ["CD Pipeline demo with Fabric8, Jenkins and OpenShift"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43475",
+      "_score": 1.0,
+      "fields": {
+        "duration": [437.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/61543833"],
+        "thumbnail": ["https://i.vimeocdn.com/video/485546204_200x150.jpg"],
+        "sys_description": ["This introduction has been setup to get you started as quickly as possible with the newest member of the JBoss Integration portfolio, JBoss Fuse. We have put together a three part video tour of the product, an example quick setup of the product and the installation of an existing project that is then deployed on JBoss Fuse The demo is imported into the JBoss Developer Studio, we start the server, deploy our project and walk you through the websocket demo. All the code is available for your use and this demo is fully repeatable on your own machine."],
+        "sys_created": ["2013-03-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Part 3: Building your first App with JBoss Fuse"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43465",
+      "_score": 1.0,
+      "fields": {
+        "duration": [747.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/153509173"],
+        "thumbnail": ["https://i.vimeocdn.com/video/553811893_200x150.jpg"],
+        "sys_description": ["Video recording demonstrating the new fabric8 camel-maven-plugin that is able to validate your Camel endpoints from the source code, so you can catch those typo errors before running the application."],
+        "sys_created": ["2016-01-29T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat AMQ"],
+        "sys_title": ["fabric8 Camel Maven Plugin"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43455",
+      "_score": 1.0,
+      "fields": {
+        "duration": [258.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/130280300"],
+        "thumbnail": ["https://i.vimeocdn.com/video/522079570_200x150.jpg"],
+        "sys_description": ["Introduction to Apache Camel, one of the technology used in JBoss Fuse. This video talks about the connectors and components that are available in Camel."],
+        "sys_created": ["2015-06-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "Red Hat Software Collections"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["Introduction to JBoss Fuse - Apache Camel Connector and Components"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43445",
+      "_score": 1.0,
+      "fields": {
+        "duration": [280.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/140714406"],
+        "thumbnail": ["https://i.vimeocdn.com/video/537353498_200x150.jpg"],
+        "sys_description": ["The first step in understanding JBoss BPM Suite is provided in the JBoss BPM Starter Kit. In this video we show what is available to you in JBoss BPM Suite Business Central and where to find it."],
+        "sys_created": ["2015-09-28T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "bpms"],
+        "target_product": ["Red Hat Process Automation Manager"],
+        "sys_title": ["Quick Tour #7: What's in Business Central"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43415",
+      "_score": 1.0,
+      "fields": {
+        "duration": [493.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/130287082"],
+        "thumbnail": ["https://i.vimeocdn.com/video/522087486_200x150.jpg"],
+        "sys_description": ["For people that are getting started to know Fuse, and wants to get their hands dirty and develop a JBoss Fuse project for the first time. This video shows you how to deploy Fuse project to JBoss Fuse, and shows various management capability in Fuse Fabric. Contains Fabric8 deployment and New Fuse management console"],
+        "sys_created": ["2015-06-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "Red Hat Software Collections"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse Getting Started Home Loan Demo Part 7"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43405",
+      "_score": 1.0,
+      "fields": {
+        "duration": [454.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/61535853"],
+        "thumbnail": ["https://i.vimeocdn.com/video/483990433_200x150.jpg"],
+        "sys_description": ["This introduction has been setup to get you started as quickly as possible with the newest member of the JBoss Integration portfolio, JBoss Fuse. We have put together a three part video tour of the product, an example quick setup of the product and the installation of an existing project that is then deployed on JBoss Fuse. This is a very quick and dirty introduction to the JBoss Fuse product and gives you an idea of what the components are. It sets the stage for the following two parts with an overview of the websocket demo project."],
+        "sys_created": ["2013-03-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["Part 1: Introduction to JBoss Fuse"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43395",
+      "_score": 1.0,
+      "fields": {
+        "duration": [347.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/130279093"],
+        "thumbnail": ["https://i.vimeocdn.com/video/522076540_200x150.jpg"],
+        "sys_description": ["This overview of why we need JBoss Fuse when Integrating and a brief introduction to gives you an idea of what the components are in JBoss Fuse."],
+        "sys_created": ["2015-06-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "Red Hat Software Collections"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["Introduction to JBoss Fuse"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43375",
+      "_score": 1.0,
+      "fields": {
+        "duration": [378.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/130286968"],
+        "thumbnail": ["https://i.vimeocdn.com/video/522087348_200x150.jpg"],
+        "sys_description": ["For people that are getting started to know Fuse, and wants to get their hands dirty and develop a JBoss Fuse project for the first time. This video demonstrate the debugging capability in JBoss Developer studio. And shows how to run the standalone Camel application."],
+        "sys_created": ["2015-06-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "Red Hat Software Collections"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse Getting Started Home Loan Demo Part 6"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43365",
+      "_score": 1.0,
+      "fields": {
+        "duration": [905.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/150873903"],
+        "thumbnail": ["https://i.vimeocdn.com/video/550468761_200x150.jpg"],
+        "sys_description": ["Shows what is in Fuse Integration Service and it's capabilities, why using it from developer's perspective. What is Fuse Service Integration? Why can Integration developer benefit from it? • Smart Endpoint and data mapping component and EIP framework for Enterprise class integration and small codebase suite best for microservice architecture. • Light weight containerized application allow consistence environment across software lifecycle, allow agile deployment. • Hybrid self-service integration platform across cloud and on-premise environment. • Enhanced DEVOPS capability more responsive and agile integration solutions."],
+        "sys_created": ["2016-01-06T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "integration"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["What is Fuse Integration Service?"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43355",
+      "_score": 1.0,
+      "fields": {
+        "duration": [246.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/123441243"],
+        "thumbnail": ["https://i.vimeocdn.com/video/512777167_200x150.jpg"],
+        "sys_description": ["After spending 3 minutes or so creating our hawtio plugin, let's bring in the hawtio-forms plugin and add a little form with a couple fields. And then let's see how we can get at the data in that form. And finally let's make it tabbed. More info on hawtio at http://hawt.io More info on hawtio-forms including way more complicated live examples -> http://forms.hawt.io"],
+        "sys_created": ["2015-03-27T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["hawtio - Adding a form"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43345",
+      "_score": 1.0,
+      "fields": {
+        "duration": [269.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/125066673"],
+        "thumbnail": ["https://i.vimeocdn.com/video/515027804_200x150.jpg"],
+        "sys_description": ["This video shows how to create a new Java project using Apache Camel and create the git repository along with creating a build and deployment on OpenShift. Then using the fabric8 console to look inside the deployed Java container to visualise the running camel routes. The entire demo is running on OpenShift V3 / Kubernetes with everything packaged as a Docker container. More background on this demo here: https://medium.com/@jstrachan/demo-using-fabric8-to-create-a-new-java-project-git-repo-and-automatically-build-deploy-it-on-d34d776098a9"],
+        "sys_created": ["2015-04-15T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["OpenShift", "kubernetes", "java ee", "PaaS"],
+        "target_product": ["Red Hat AMQ"],
+        "sys_title": ["Fabric8 create Camel Java project and deploy on OpenShift"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43335",
+      "_score": 1.0,
+      "fields": {
+        "duration": [354.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/130281513"],
+        "thumbnail": ["https://i.vimeocdn.com/video/522080586_200x150.jpg"],
+        "sys_description": ["Introduction to Apache Camel, one of the technology used in JBoss Fuse. This video talks about Enterprise Integration Patterns of Camel, why it is important to think about EIP when creating solutions for integration projects. Also take you have a look at what is available in JBoss Developer studio, the tools for developers when creating a Fuse Project"],
+        "sys_created": ["2015-06-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "Red Hat Software Collections"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["Introduction to JBoss Fuse - Apache Camel EIPs and Tool"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43325",
+      "_score": 1.0,
+      "fields": {
+        "duration": [385.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/130283717"],
+        "thumbnail": ["https://i.vimeocdn.com/video/522083316_200x150.jpg"],
+        "sys_description": ["This video give a brief introduction of the container running JBoss Fuse. Apache Karaf, which is a light weight modularized system and allow runtime deployment. Fuse Fabric takes care of the management in JBoss Fuse. Provide comprehensive capability to manage complex distributed systems."],
+        "sys_created": ["2015-06-10T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration", "Red Hat Software Collections"],
+        "target_product": [""],
+        "sys_title": ["Introduction to JBoss Fuse - Karaf container and Fuse Fabric"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43305",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1311.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/148281332"],
+        "thumbnail": ["https://i.vimeocdn.com/video/547181380_200x150.jpg"],
+        "sys_description": ["Demonstrates walking through the JBoss SwitchYard tooling tutorial a step at a time using the latest release (2.0.1) of the SwitchYard Tools. The latest SwitchYard tooling is version 2.0.1 and now available with JBoss Developer Studio Integration Stack (JBDSIS 8.0.4) in the Eclipse Marketplace - https://marketplace.eclipse.org/content/red-hat-jboss-developer-studio-integration-stack-luna And you can find the tutorial here: https://docs.jboss.org/author/display/SWITCHYARD/Tutorial"],
+        "sys_created": ["2015-12-08T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat JBoss Developer Studio"],
+        "sys_title": ["Walking through the JBoss SwitchYard Tooling Tutorial"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43295",
+      "_score": 1.0,
+      "fields": {
+        "duration": [714.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/131250890"],
+        "thumbnail": ["https://i.vimeocdn.com/video/523427841_200x150.jpg"],
+        "sys_description": ["Overview of new data transformation capabilities in Fuse Tooling as part of the Fuse 6.2 release. The example project used in the video can be found here: https://github.com/fusesource/fuseide/tree/master/examples/transformation If you would like to dive deeper into the data transformation tooling, check out these other videos: Field Mappings : https://vimeo.com/124539558 Variable Mappings : https://vimeo.com/124547881 Custom Mappings : https://vimeo.com/124550611 Expression Mappings : https://vimeo.com/125104631 “Other” Data Types: https://vimeo.com/125102909"],
+        "sys_created": ["2015-06-19T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["Fuse 6.2 - Data Transformation Overview"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43285",
+      "_score": 1.0,
+      "fields": {
+        "duration": [1597.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/145968399"],
+        "thumbnail": ["https://i.vimeocdn.com/video/544292112_200x150.jpg"],
+        "sys_description": ["Included in the demo we see and end to end example of not only build, test and releasing a new project but also crating the entire environment used to do so."],
+        "sys_created": ["2015-11-17T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["jenkins", "Docker", "kubernetes", "OpenShift"],
+        "target_product": ["Red Hat AMQ"],
+        "sys_title": ["Automation for Microservices"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43275",
+      "_score": 1.0,
+      "fields": {
+        "duration": [649.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/146080419"],
+        "thumbnail": ["https://i.vimeocdn.com/video/544437130_200x150.jpg"],
+        "sys_description": ["JBoss Fuse allows you to have freedom of deploying your application on your favorite containers, in this video, it shows you how to create the projects, how to use the datasource , how to reference a java bean and also how to expose servlet and restful endpoints. You will be able to see how the application is deploy and managed as well."],
+        "sys_created": ["2015-11-18T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["integration"],
+        "target_product": ["Red Hat Fuse"],
+        "sys_title": ["JBoss Fuse on EAP"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43265",
+      "_score": 1.0,
+      "fields": {
+        "duration": [681.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/131199128"],
+        "thumbnail": ["https://i.vimeocdn.com/video/523362261_200x150.jpg"],
+        "sys_description": ["This video will show you how to debug routes with the JBoss Fuse Tooling Camel Debugger. Highlights: Working with breakpoints and conditional breakpoints Run a Camel Context in Debug Mode How to evaluate variables and message contents How to watch specific variables Stepping through the routes"],
+        "sys_created": ["2015-06-19T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["fuse", "integration"],
+        "target_product": ["Red Hat JBoss Developer Studio"],
+        "sys_title": ["JBoss Fuse Tooling - How to debug Apache Camel Routes"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43255",
+      "_score": 1.0,
+      "fields": {
+        "duration": [169.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/25768303"],
+        "thumbnail": ["https://i.vimeocdn.com/video/169856459_200x150.jpg"],
+        "sys_description": ["Quick screencast showing how fast JBoss AS 7 CR 1 is and how easy it is to use with JBoss Tools 3.3 M2 and higher. You can get the plugins discussed from http://community.jboss.org/en/tools/blog/2011/06/28/fast-faster-jboss-tools-33-m2"],
+        "sys_created": ["2011-06-29T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "Red Hat Developer Toolset"],
+        "target_product": ["Red Hat JBoss Developer Studio"],
+        "sys_title": ["JBoss Tools & JBoss AS 7"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43245",
+      "_score": 1.0,
+      "fields": {
+        "duration": [374.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/94436217"],
+        "thumbnail": ["https://i.vimeocdn.com/video/474309857_200x150.jpg"],
+        "sys_description": ["Are you ready for BPM in the Cloud? The fully cloud enabled JBoss BPM Suite is now available on OpenShift as a bpmPaaS cartridge. We have not been idle in the background as this was developed and have put together some automated cartridge installation projects that kick start you with pre-loaded demo projects. Here we provide a video walkthrough covering the creation of your bpmPaaS instance on OpenShift and quick tour of how to run the Generic Loan demo project, all in just over 6 minutes."],
+        "sys_created": ["2014-05-07T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "bpms", "OpenShift"],
+        "target_product": [""],
+        "sys_title": ["Red Hat OpenShift bpmPaaS with Generic Loan Demo"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43235",
+      "_score": 1.0,
+      "fields": {
+        "duration": [423.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/76457404"],
+        "thumbnail": ["https://i.vimeocdn.com/video/451276824_200x150.jpg"],
+        "sys_description": ["We are announcing the beta availability of the Red Hat JBoss Data Virtualization v6 (formally known as Red Hat JBoss Enterprise Data Services Platform). Blaine Mincey will walk us through this 3 part series on Data Virtualization. JBoss Data Virtualization is useful for any organization who struggles to gain operational and analytical insights due to data locked up in various business units, applications, and technology silos. With the exploding volume and diversity of data, organizations are realizing that physical consolidation or replication of data is not practical for all data integration needs."],
+        "sys_created": ["2013-10-08T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat JBoss Data Virtualization"],
+        "sys_title": ["Part 1 Introduction to Data Virtualization"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43225",
+      "_score": 1.0,
+      "fields": {
+        "duration": [246.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/76471307"],
+        "thumbnail": ["https://i.vimeocdn.com/video/451288893_200x150.jpg"],
+        "sys_description": ["We are announcing the beta availability of the Red Hat JBoss Data Virtualization v6 (formally known as Red Hat JBoss Enterprise Data Services Platform). Blaine Mincey will walk us through this 3 part series on Data Virtualization. JBoss Data Virtualization is useful for any organization who struggles to gain operational and analytical insights due to data locked up in various business units, applications, and technology silos. With the exploding volume and diversity of data, organizations are realizing that physical consolidation or replication of data is not practical for all data integration needs."],
+        "sys_created": ["2013-10-08T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat JBoss Data Virtualization"],
+        "sys_title": ["Part 2 Introduction to Data Virtualization"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43215",
+      "_score": 1.0,
+      "fields": {
+        "duration": [295.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/76476379"],
+        "thumbnail": ["https://i.vimeocdn.com/video/451295013_200x150.jpg"],
+        "sys_description": ["We are announcing the beta availability of the Red Hat JBoss Data Virtualization v6 (formally known as Red Hat JBoss Enterprise Data Services Platform). Blaine Mincey will walk us through this 3 part series on Data Virtualization. JBoss Data Virtualization is useful for any organization who struggles to gain operational and analytical insights due to data locked up in various business units, applications, and technology silos. With the exploding volume and diversity of data, organizations are realizing that physical consolidation or replication of data is not practical for all data integration needs."],
+        "sys_created": ["2013-10-08T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": ["Red Hat JBoss Data Virtualization"],
+        "sys_title": ["Part 3 Introduction to Data Virtualization"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43205",
+      "_score": 1.0,
+      "fields": {
+        "duration": [422.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/65224122"],
+        "thumbnail": ["https://i.vimeocdn.com/video/436117673_200x150.jpg"],
+        "sys_description": ["This is a web application based on the popular framework Vaadin which is an example of an online shopping cart. This web application demonstrates interaction between a web front end and the various components provided by JBoss BRMS product. In this video we take a closer look at the event stream as managed in the online shopping cart and exposes you to the business rules and CEP features of JBoss BRMS."],
+        "sys_created": ["2013-05-01T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "rules", "bpms"],
+        "target_product": ["Red Hat Decision Manager"],
+        "sys_title": ["JBoss BRMS Cool Store Demo Part II - Complex events and business rules"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43195",
+      "_score": 1.0,
+      "fields": {
+        "duration": [217.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/104313232"],
+        "thumbnail": ["https://i.vimeocdn.com/video/487196582_200x150.jpg"],
+        "sys_description": ["Here is a fully automated cartridge installation for JBoss BRMS Cool Store in the OpenShift Cloud that will allow you to kick start a pre-loaded demo project in the OpenShift bpmPaaS based on JBoss BRMS. Get up and running in just minutes."],
+        "sys_created": ["2014-08-25T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["OpenShift", "JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBoss BRMS Cool Store using bpmPaaS in OpenShift xPaaS"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43185",
+      "_score": 1.0,
+      "fields": {
+        "duration": [497.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/93127108"],
+        "thumbnail": ["https://i.vimeocdn.com/video/473086752_200x150.jpg"],
+        "sys_description": ["This video walks through the complete process of installing and running the JBoss BRMS 6 based Cool Store demo. It includes adjustments to shipping pricing decision table and runtime changing of the pricing model without a new web shop application being re-deployed."],
+        "sys_created": ["2014-04-28T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss"],
+        "target_product": [""],
+        "sys_title": ["JBoss BRMS - Demo Cool Store Dynamic Rule Updates"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43175",
+      "_score": 1.0,
+      "fields": {
+        "duration": [782.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/87038127"],
+        "thumbnail": ["https://i.vimeocdn.com/video/464975372_200x150.jpg"],
+        "sys_description": ["Ready to get started with the JBoss BPM Suite Mortgage Demo? After installing the demo, this video will take you through the process, showcase the various components, execute a full process run, and examine the business activity monitoring (BAM) dashboard upon completion."],
+        "sys_created": ["2014-02-18T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "bpms"],
+        "target_product": ["Red Hat Process Automation Manager"],
+        "sys_title": ["JBoss BPM Suite - Running the Mortgage Demo"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43165",
+      "_score": 1.0,
+      "fields": {
+        "duration": [299.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91739079"],
+        "thumbnail": ["https://i.vimeocdn.com/video/471234686_200x150.jpg"],
+        "sys_description": ["This introduction has been setup to get you started as quickly as possible with JBoss A-MQ. We have put together a three part video tour of the product, an example quick setup of the product and the installation of an existing project that is then deployed to JBoss A-MQ. The product is installed and configured right before your very eyes in no time at all with a fully automated project setup script. The server setup is shown using the latest JBoss Developer Studio and you are ready to get going."],
+        "sys_created": ["2014-04-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat AMQ"],
+        "sys_title": ["JBoss A-MQ 6.1 Getting Started Part 3"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43155",
+      "_score": 1.0,
+      "fields": {
+        "duration": [363.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/65226780"],
+        "thumbnail": ["https://i.vimeocdn.com/video/436118720_200x150.jpg"],
+        "sys_description": ["This is a web application based on the popular framework Vaadin which is an example of an online shopping cart. This web application demonstrates interaction between a web front end and the various components provided by JBoss BRMS product. In this final video we take a look at the BPM process features, designer and examine how JBoss BRMS integrates decision tables into our online shopping cart application."],
+        "sys_created": ["2013-05-01T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "rules", "bpms"],
+        "target_product": ["Red Hat Decision Manager"],
+        "sys_title": ["JBoss BRMS Cool Store Demo Part III - BPM and decision tables"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43145",
+      "_score": 1.0,
+      "fields": {
+        "duration": [588.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/103917467"],
+        "thumbnail": ["https://i.vimeocdn.com/video/487688337_200x150.jpg"],
+        "sys_description": ["This demo project will install JBoss BPM Suite and JBoss FSW on separate EAP instances. It will automate the setup configuration details to integrate the S-RAMP governance repository with the BPM project Customer Evaluation. It tracks deployments, automates triggering governance workflows to approve or reject promotion of BPM artifacts from dev-qa-staged-prod. We walk you through all of the installation and a governance use case in less than 10 minutes!"],
+        "sys_created": ["2014-08-20T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "bpms"],
+        "target_product": [""],
+        "sys_title": ["JBoss BPM Suite & JBoss FSW integration governance demo"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43135",
+      "_score": 1.0,
+      "fields": {
+        "duration": [570.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/44038559"],
+        "thumbnail": ["https://i.vimeocdn.com/video/305779233_200x150.jpg"],
+        "sys_description": ["This demo takes you through a BPM project that integrates processes and WS-HumanTask service to process an employee rewards request using JBoss Enterprise Business Rules Management System."],
+        "sys_created": ["2012-06-14T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat Process Automation Manager"],
+        "sys_title": ["JBoss BRMS BPM Rewards Approval Demo"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43125",
+      "_score": 1.0,
+      "fields": {
+        "duration": [581.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/44032160"],
+        "thumbnail": ["https://i.vimeocdn.com/video/305733336_200x150.jpg"],
+        "sys_description": ["This demo takes you through a BPM project that integrates processes and rules to evaluate a give customer request using JBoss Enterprise Business Rules Management System."],
+        "sys_created": ["2012-06-14T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat Process Automation Manager"],
+        "sys_title": ["JBoss BRMS BPM Customer Evaluation Demo"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43115",
+      "_score": 1.0,
+      "fields": {
+        "duration": [175.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/142883902"],
+        "thumbnail": ["https://i.vimeocdn.com/video/540304241_200x150.jpg"],
+        "sys_description": ["Discover the value of business rules and business process management in under three minutes. Learn how smart organizations are using these technologies to beat their competition."],
+        "sys_created": ["2015-10-19T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": [""],
+        "sys_title": ["JBoss BPM Suite and JBoss BRMS: Keep your business in business"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43105",
+      "_score": 1.0,
+      "fields": {
+        "duration": [321.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/86884030"],
+        "thumbnail": ["https://i.vimeocdn.com/video/464725496_200x150.jpg"],
+        "sys_description": ["Ready to get started with the JBoss BPM Suite Mortgage Demo? This video will take you through the process from scratch to the point where you have the project up and running."],
+        "sys_created": ["2014-02-17T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "bpms"],
+        "target_product": ["Red Hat Process Automation Manager"],
+        "sys_title": ["JBoss BPM Suite - Mortgage Demo Installation"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43095",
+      "_score": 1.0,
+      "fields": {
+        "duration": [365.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91736985"],
+        "thumbnail": ["https://i.vimeocdn.com/video/471233336_200x150.jpg"],
+        "sys_description": ["This introduction has been setup to get you started as quickly as possible with JBoss A-MQ. We have put together a three part video tour of the product, an example quick setup of the product and the installation of an existing project that is then deployed to JBoss A-MQ. The product is installed and configured right before your very eyes in no time at all with a fully automated project setup script. The server setup is shown using the latest JBoss Developer Studio and you are ready to get going."],
+        "sys_created": ["2014-04-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat AMQ"],
+        "sys_title": ["Getting Started With A-MQ 6.1"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43085",
+      "_score": 1.0,
+      "fields": {
+        "duration": [267.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/91739503"],
+        "thumbnail": ["https://i.vimeocdn.com/video/471235551_200x150.jpg"],
+        "sys_description": ["This introduction has been setup to get you started as quickly as possible with JBoss A-MQ. We have put together a three part video tour of the product, an example quick setup of the product and the installation of an existing project that is then deployed to JBoss A-MQ. The product is installed and configured right before your very eyes in no time at all with a fully automated project setup script. The server setup is shown using the latest JBoss Developer Studio and you are ready to get going."],
+        "sys_created": ["2014-04-11T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": [""],
+        "target_product": ["Red Hat AMQ"],
+        "sys_title": ["JBoss A-MQ 6.1 Getting Started Part 2"]
+      }
+    }, {
+      "_index": "data_jbossdeveloper_vimeo",
+      "_type": "jbossdeveloper_vimeo",
+      "_id": "43075",
+      "_score": 1.0,
+      "fields": {
+        "duration": [175.0],
+        "sys_url_view": ["https://developers.redhat.com/videos/vimeo/143059985"],
+        "thumbnail": ["https://i.vimeocdn.com/video/540531774_200x150.jpg"],
+        "sys_description": ["Shipping companies around the world are challenged to optimize their processes in a rapidly changing business environment. This fun, easy-to-understand video illustrates how the combined business rules, business process and complex event processing capabilities of JBoss Enterprise BRMS can help shipping companies become intelligent, integrated enterprises."],
+        "sys_created": ["2015-10-20T00:00:00.000Z"],
+        "sys_type": ["video"],
+        "sys_tags": ["JBoss", "rules", "bpms"],
+        "target_product": ["Red Hat Decision Manager"],
+        "sys_title": ["The Intelligent, Integrated Shipping Company: JBoss Enterprise Business Rules Management System"]
+      }
+    }]
+  }
+}
