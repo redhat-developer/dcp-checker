@@ -1,7 +1,6 @@
 require 'dcp-checker/version'
 require 'dcp-checker/report'
 require 'dcp-checker/config'
-require 'dcp-checker/error'
 require 'dcp-checker/time'
 require 'dcp-checker/logger'
 require 'dcp-checker/crawler'
