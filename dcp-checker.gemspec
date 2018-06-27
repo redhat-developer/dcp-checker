@@ -11,15 +11,13 @@ Gem::Specification.new do |spec|
   spec.summary = %q{Test for broken links in Red Hat Developer Search Engine content.}
   spec.description = %q{Test for broken links in Red Hat Developer Search Engine content.}
   spec.homepage = 'https://github.com/redhat-developer/rhd-dcp-checker'
-  spec.license = 'MIT'
+  spec.license = 'Apache-2.0'
 
-  spec.files = `git ls-files -z`.split('\x0').reject do |f|
-    f.match(%r{^(test|spec|features)/})
-  end
-  spec.bindir = 'exe'
-  spec.executables = spec.files.grep(%r{^exe/}) {|f| File.basename(f)}
+  spec.files = `git ls-files`.split($RS)
+  spec.files -= %w[.gitignore]
+  spec.executables = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  spec.test_files = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
-
   spec.add_development_dependency 'bundler', '~> 1.16'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'minitest'
