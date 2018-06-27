@@ -1,3 +1,4 @@
+base_url: https://dcp2.jboss.org/v2/rest/search/developer_materials?
 content:
   - jbossdeveloper_quickstart
   - jbossdeveloper_demo

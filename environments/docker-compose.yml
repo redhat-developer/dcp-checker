@@ -1,5 +1,0 @@
-version: '2'
-services:
-  rhd_dcp_checks:
-   build: ../
-   working_dir: /home/rhd-dcp-checker
