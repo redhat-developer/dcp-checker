@@ -8,3 +8,4 @@
 /tmp/
 *.xml
 *.xml
+.idea/*
