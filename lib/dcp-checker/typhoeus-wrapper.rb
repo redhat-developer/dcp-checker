@@ -1,4 +1,3 @@
-require 'dcp-checker/typhoeus-wrapper'
 require 'dcp-checker/logger'
 
 module DcpChecker

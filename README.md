@@ -2,32 +2,46 @@
 
 ## Installation
 
+Add the following to your Gemfile
+
 ```ruby
-gem 'dcp-checker'
+gem 'dcp-checker', :git => 'http://github.com/redhat-developer/rhd-dcp-checker'
 ```
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install dcp-checker
+    $ bundle install
 
 ## Usage
 
-TODO: Write usage instructions here
+The aim of this gem is to test from broken links within red hat developer content.
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bundle exec rake test` to run the tests.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+To install this gem onto your local machine, run `bundle exec rake install`. 
 
-## Contributing
+## Config
+By default dcp-checker will check for the following:
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/dcp-checker. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+      - jbossdeveloper_quickstart
+      - jbossdeveloper_demo
+      - jbossdeveloper_bom
+      - jbossdeveloper_archetype
+      - jbossdeveloper_example
+      - jbossdeveloper_vimeo
+      - jbossdeveloper_youtube
+      - jbossdeveloper_book
+      - jbossdeveloper_event
+      - jbossdeveloper_cheatsheet
+      - rht_website
+     
+You can customise the content types by adding `config/dcp-config.yml` to the directory where you are executing checks from
 
-## License
+     - jbossdeveloper_quickstart
+     - new_content_type1
+     - new_content_type2
+     - new_content_type3
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
