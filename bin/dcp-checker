@@ -6,16 +6,16 @@ Encoding.default_external = 'UTF-8'
 options = {}
 
 OptionParser.new do |opts|
-    opts.banner = 'Usage: dcp-checker [options]'
-    opts.separator 'Specific options:'
+  opts.banner = 'Usage: dcp-checker [options]'
+  opts.separator 'Specific options:'
 
-    opts.on('--base-url URL', 'specify the URL of the site root') do |opt|
-      options[:base_url] = opt
-    end
-    opts.on('--config CONFIG', 'Specify custom config file location') do |opt|
-      options[:config] = opt
-    end
-  end.parse!
+  opts.on('--base-url URL', 'specify the URL of the site root') do |opt|
+    options[:base_url] = opt
+  end
+  opts.on('--config CONFIG', 'Specify custom config file location') do |opt|
+    options[:config] = opt
+  end
+end.parse!
 
 require 'date'
 require 'dcp-checker/time'

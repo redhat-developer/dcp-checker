@@ -15,6 +15,11 @@ module DcpChecker
                DcpChecker::Config.read(File.join(File.dirname(__dir__), '.', 'config/dcp-config.yml'), options)
              end
     result = DcpChecker::Crawler.new(config).analyze
-    DcpChecker::Report.new(result).render
+    begin
+      DcpChecker::Report.new(result).render
+    rescue => error
+    DcpChecker.logger.warn("Error occurred whilst generating DCP Report: #{error}")
+    end
+    exit(0)
   end
 end

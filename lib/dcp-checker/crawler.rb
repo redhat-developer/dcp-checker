@@ -1,6 +1,7 @@
 require 'json'
 require 'ostruct'
 require 'uri'
+require 'typhoeus'
 require 'dcp-checker/logger'
 require 'dcp-checker/typhoeus-wrapper'
 
