@@ -67,7 +67,7 @@ module DcpChecker
     end
 
     def query(from, type)
-      get("#{@config[:base_url]}/tags_or_logic=true&filter_out_excluded=true&from=#{from}&size100=true&type=#{type}")
+      get("#{@config[:base_url]}/rest/search/developer_materials?/tags_or_logic=true&filter_out_excluded=true&from=#{from}&size100=true&type=#{type}")
     end
 
     def collect(type)
