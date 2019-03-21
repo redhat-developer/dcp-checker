@@ -33,6 +33,8 @@ module DcpChecker
         @logger.info("Checking #{urls.length} links".yellow)
         @processed = 0
         Parallel.each(urls, in_threads: (Parallel.processor_count * 2)) do |url|
+          is_url = is_url?(url)
+          next if is_url.nil?
           if @cached.has_key?(url.chomp('/'))
             @logger.info("Loaded #{url} from cache".green)
             res = @cached["#{url.chomp('/')}"][:response]
@@ -154,6 +156,10 @@ module DcpChecker
     def get_base(url)
       uri = URI.parse(url)
       "#{uri.scheme}://#{uri.host}"
+    end
+
+    def is_url?(url)
+      url =~ URI::regexp
     end
   end
 end
