@@ -1,6 +1,6 @@
 require 'test_helper'
 require 'minitest/autorun'
-require 'mocha/mini_test'
+require 'mocha/minitest'
 
 class DcpCheckerTest < Minitest::Test
   describe DcpChecker do

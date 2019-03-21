@@ -1,6 +1,6 @@
 require_relative '../../test/test_helper'
 require 'minitest/autorun'
-require 'mocha/mini_test'
+require 'mocha/minitest'
 require 'json'
 
 require_relative 'mocks/dcp-mock'
@@ -13,8 +13,8 @@ class TestDcpChecker < Minitest::Test
       options = {}
       @jbossdeveloper_example = File.read("#{__dir__}/mocks/jbossdeveloper_example.json")
       @jbossdeveloper_quickstart = File.read("#{__dir__}/mocks/jbossdeveloper_quickstart.json")
-      options[:config_file] = {content: ['jbossdeveloper_quickstart', 'jbossdeveloper_example'],
-                               base_url: 'https://dcp2.jboss.org/v2/rest/search/developer_materials?'}
+      options[:config_file] = { content: ['jbossdeveloper_quickstart', 'jbossdeveloper_example'],
+                               base_url: 'https://dcp2.jboss.org/v2' }
       @config = DcpChecker::Config.new(options[:config_file])
       %w[jbossdeveloper_quickstart jbossdeveloper_example].each do |content_type|
         DcpMock.new(@config).map(content_type, instance_variable_get("@#{content_type}"))
@@ -38,7 +38,7 @@ class TestDcpChecker < Minitest::Test
     it 'should iterate through results if containing more than 100' do
       options = {}
       options[:config_file] = {content: ['jbossdeveloper_vimeo'],
-                               base_url: 'https://dcp2.jboss.org/v2/rest/search/developer_materials?'}
+                               base_url: 'https://dcp2.jboss.org/v2'}
       config = DcpChecker::Config.new(options[:config_file])
       display_results = [0, 100, 200, 300]
       display_results.each do |from|
@@ -51,6 +51,7 @@ class TestDcpChecker < Minitest::Test
     end
 
     it 'should capture broken links' do
+      DcpMock.new(@config).mock_robots_txt
       DcpMock.new(@config).stub_url('https://developers.redhat.com///quickstarts/eap/kitchensink-jsp', 404)
       DcpMock.new(@config).stub_url('https://developers.redhat.com//ticket-monster/businesslogic', 200)
       links = DcpChecker::Crawler.new(@config).analyze

@@ -13,7 +13,6 @@ Gem::Specification.new do |spec|
   spec.description = 'Test for broken links in Red Hat Developer content.'
   spec.homepage = 'https://github.com/redhat-developer/dcp-checker'
   spec.license = 'Apache-2.0'
-  spec.files = `git ls-files`.split($RS)
   spec.files -= %w[.gitignore .ruby-version .ruby-gemset]
   spec.executables = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files = spec.files.grep(%r{^(test|spec|features)/})
@@ -21,14 +20,14 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 1.9'
 
 
-  spec.add_dependency 'nokogiri', '~> 1.8'
-  spec.add_dependency 'typhoeus', '~> 1.3'
+  spec.add_dependency 'nokogiri', '~> 1.10'
+  spec.add_dependency 'rest-client', '~> 2.0'
   spec.add_dependency 'slim', '~> 3.0', '>= 3.0.9'
   spec.add_dependency 'parallel', '~> 1.12', '>= 1.12.1'
-  spec.add_dependency 'ffi', '1.9.18'
+  spec.add_dependency 'ffi', '~> 1.10'
   spec.add_dependency 'rounding'
-  spec.add_development_dependency 'rake', '~> 10.3'
-  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'rake', '~> 12.3'
+  spec.add_development_dependency 'rspec', '~> 3.8'
   spec.add_development_dependency 'webmock', '~> 3.3'
   spec.add_development_dependency 'timecop', '~> 0.9.1'
   spec.add_development_dependency 'bundler', '~> 1.6'

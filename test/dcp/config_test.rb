@@ -1,6 +1,6 @@
 require 'test_helper'
 require 'minitest/autorun'
-require 'mocha/mini_test'
+require 'mocha/minitest'
 require 'dcp-checker/config'
 
 class TestDcpChecker < Minitest::Test
@@ -18,7 +18,7 @@ class TestDcpChecker < Minitest::Test
       options = {}
       args = {}
       options[:config_file] = "#{__dir__}/config/dcp-config.yml"
-      expected_hash = { base_url: 'https://dcp2.jboss.org/v2/rest/search/developer_materials?', content: ['jbossdeveloper_quickstart', 'jbossdeveloper_example', 'jbossdeveloper_vimeo'] }
+      expected_hash = { base_url: 'https://dcp2.jboss.org/v2', content: ['jbossdeveloper_quickstart', 'jbossdeveloper_example', 'jbossdeveloper_vimeo'] }
       actual_hash = DcpChecker::Config.read(options[:config_file], args)
       assert_equal(expected_hash.to_s, actual_hash.to_h.to_s)
     end

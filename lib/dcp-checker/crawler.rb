@@ -1,9 +1,9 @@
 require 'json'
 require 'ostruct'
 require 'uri'
-require 'typhoeus'
+require 'parallel'
 require 'dcp-checker/logger'
-require 'dcp-checker/typhoeus-wrapper'
+require 'dcp-checker/restclient-wrapper'
 
 module DcpChecker
 # This class will query the dcp per content type, and return an array of 'sys_url_view' urls, it will then check for broken links
@@ -14,6 +14,8 @@ module DcpChecker
       @max_retrys = 3
       @config = config.validate
       @logger = DcpChecker.logger
+      @cached = {}
+      @robots_txt_cache = {}
     end
 
     def content
@@ -28,28 +30,53 @@ module DcpChecker
       errors = []
       total = 0
       content.each do |content_type, urls|
-        @logger.info("Checking #{urls.size} links for #{content_type}".blue)
+        @logger.info("Checking #{urls.length} links".yellow)
         @processed = 0
-        total += urls.size
-        blc = DcpChecker::TyphoeusWrapper.new
-        blc.process_all(urls, @max_retrys) do |response|
-          url = response.request.base_url
-          resp_code = response.code.to_i
+        Parallel.each(urls, in_threads: (Parallel.processor_count * 2)) do |url|
+          if @cached.has_key?(url.chomp('/'))
+            @logger.info("Loaded #{url} from cache".green)
+            res = @cached["#{url.chomp('/')}"][:response]
+          else
+            unless @last_checked.nil?
+              url_base = get_base(url)
+              if @last_checked.include?(url_base)
+                timestamp = ::Time.now - @last_checked_timestamp
+                respect_robots_txt(url_base)
+                if timestamp < @delay
+                  @logger.info("Respecting the website robots.txt Crawl-delay, waiting for #{@delay - timestamp} second(s)")
+                  sleep(@delay - timestamp)
+                end
+              end
+            end
+            browser = DcpChecker::RestClientWrapper.new(@config)
+            res = browser.process(url)
+            @cached["#{url.chomp('/')}"] = {response: res}
+            @last_checked = get_base(url)
+            @last_checked_timestamp = ::Time.now
+          end
 
-          if resp_code > 400 || resp_code == 0
-            response = response
-            message = if response.status_message.nil?
-                        response.return_message
-                      else
-                        response.status_message
-                      end
-            errors.push(OpenStruct.new(content_type: content_type, url: url, code: resp_code, message: message))
+          if res == SocketError
+            resp_code = 503
+            message = 'Site can’t be reached'
+          elsif res == RestClient::Exceptions::Timeout || res == RestClient::Exceptions::OpenTimeout
+            resp_code = 404
+            message = 'Not Found'
+          else
+            (res.is_a? RestClient::Response) ? response = res : response = res.response
+            resp_code = response.code.to_i
+            message = res.message.gsub!(/\d+ /, '') if resp_code > 400 || resp_code == 0
           end
 
           @processed += 1
-          @logger.info("Processed #{@processed} of #{urls.size} for #{content_type}".yellow)
+
+          if resp_code > 400 || resp_code == 0
+            errors.push(OpenStruct.new(content_type: content_type, url: url, code: resp_code, message: message))
+          end
+
+          @logger.info("Processed #{@processed} of #{urls.size}".yellow)
         end
       end
+
       if errors.size > 0
         @logger.warn("DANGER: #{errors.size} errors found for #{total} links".red)
         OpenStruct.new(total: total, errors: errors)
@@ -59,11 +86,16 @@ module DcpChecker
       end
     end
 
+
     private
 
     def get(url)
-      response = Typhoeus.get(url, headers: { 'User-Agent' => 'Red Hat Developers Testing' })
-      JSON.parse(response.body)
+      begin
+        response = RestClient::Request.execute(method: :get, url: url, max_redirects: 6, timeout: 30, verify_ssl: false)
+        JSON.parse(response.body)
+      rescue RestClient::ExceptionWithResponse => err
+        err.response
+      end
     end
 
     def query(from, type)
@@ -96,5 +128,34 @@ module DcpChecker
       end
       sys_urls
     end
+
+    def respect_robots_txt(uri)
+      @delay = 0
+      begin
+        unless @robots_txt_cache.has_key?(uri)
+          robots = URI.join(uri.to_s, "/robots.txt").open
+          @robots_txt_cache["#{uri}"] = {response: robots}
+        end
+        @robots_txt_cache["#{uri}"][:response].each do |line|
+          next if line =~ /^\s*(#.*|$)/
+          arr = line.split(":")
+          key = arr.shift
+          value = arr.join(":").strip
+          value.strip!
+          @delay = value.to_i if key.downcase == 'crawl-delay'
+        end
+      rescue => error
+        unless error.message.include?('404')
+          @logger.warn("#{error} when accessing robots.txt for #{uri}") if @config.verbose
+        end
+      end
+    end
+
+    def get_base(url)
+      uri = URI.parse(url)
+      "#{uri.scheme}://#{uri.host}"
+    end
+
+
   end
 end
