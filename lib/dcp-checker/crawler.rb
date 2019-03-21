@@ -21,6 +21,7 @@ module DcpChecker
     def content
       content = {}
       @config[:content].each do |type|
+        @logger.info("Content type: #{type}")
         content.store(type, collect(type))
       end
       content
