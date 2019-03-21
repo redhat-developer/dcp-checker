@@ -3,7 +3,7 @@ PATH
   specs:
     dcp-checker (0.1.0)
       colorize
-      ffi (~> 1.10)
+      ffi (= 1.10)
       nokogiri (~> 1.10)
       parallel (~> 1.12, >= 1.12.1)
       rest-client (~> 2.0)

@@ -155,7 +155,5 @@ module DcpChecker
       uri = URI.parse(url)
       "#{uri.scheme}://#{uri.host}"
     end
-
-
   end
 end
