@@ -21,7 +21,6 @@ module DcpChecker
     def content
       content = {}
       @config[:content].each do |type|
-        @logger.info("Content type: #{type}")
         content.store(type, collect(type))
       end
       content
@@ -33,9 +32,10 @@ module DcpChecker
       content.each do |content_type, urls|
         @logger.info("Checking #{urls.length} links".yellow)
         @processed = 0
+        total += urls.size
         Parallel.each(urls, in_threads: (Parallel.processor_count * 2)) do |url|
           is_url = is_url?(url)
-          next if is_url.nil?
+          next unless is_url
           if @cached.has_key?(url.chomp('/'))
             @logger.info("Loaded #{url} from cache".green)
             res = @cached["#{url.chomp('/')}"][:response]
@@ -160,7 +160,8 @@ module DcpChecker
     end
 
     def is_url?(url)
-      url =~ URI::regexp
+      uri = URI.parse(url) rescue false
+      uri.kind_of?(URI::HTTP) || uri.kind_of?(URI::HTTPS)
     end
   end
 end
