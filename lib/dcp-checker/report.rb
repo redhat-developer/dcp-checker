@@ -24,7 +24,7 @@ module DcpChecker
         end
       end
 
-      pass_rate = "#{(errors.size).percent_of(@context[:total]).round_to(1)}%"
+      pass_rate = "#{(errors.size).percent_of(@context[:total]).to_f.round(1)}%"
       File.open('dcp-report.html', 'w') do |file|
         file.write(Slim::Template.new(HTML_REPORT).render(OpenStruct.new(total: @context[:total],
                                                                          errors: errors,
