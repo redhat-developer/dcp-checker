@@ -94,8 +94,8 @@ module DcpChecker
 
     def get(url)
       begin
-        response = RestClient::Request.execute(method: :get, url: url, max_redirects: 6, timeout: 30, verify_ssl: false)
-        sleep(0.5)
+        response = RestClient::Request.execute(method: :get, url: url, user_agent: 'Red Hat Developers Testing', timeout: 30, verify_ssl: false)
+        sleep(rand(1..2.5))
         JSON.parse(response.body)
       rescue RestClient::ExceptionWithResponse => err
         err.response
