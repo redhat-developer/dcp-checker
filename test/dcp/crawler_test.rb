@@ -19,6 +19,7 @@ class TestDcpChecker < Minitest::Test
       %w[jbossdeveloper_quickstart jbossdeveloper_example].each do |content_type|
         DcpMock.new(@config).map(content_type, instance_variable_get("@#{content_type}"))
       end
+      $is_unit_test = true
     end
 
     it 'should return an array of content types' do

@@ -33,7 +33,7 @@ module DcpChecker
         @logger.info("Checking #{urls.length} links".yellow)
         @processed = 0
         total += urls.size
-        Parallel.each(urls, in_threads: (Parallel.processor_count * 2)) do |url|
+        Parallel.each(urls, in_threads: 5) do |url|
           is_url = is_url?(url)
           next unless is_url
           if @cached.has_key?(url.chomp('/'))
@@ -53,6 +53,7 @@ module DcpChecker
             end
             browser = DcpChecker::RestClientWrapper.new(@config)
             res = browser.process(url)
+            sleep(rand(1..2.5)) if $is_unit_test.nil?
             @cached["#{url.chomp('/')}"] = {response: res}
             @last_checked = get_base(url)
             @last_checked_timestamp = ::Time.now
@@ -95,7 +96,6 @@ module DcpChecker
     def get(url)
       begin
         response = RestClient::Request.execute(method: :get, url: url, user_agent: 'Red Hat Developers Testing', timeout: 30, verify_ssl: false)
-        sleep(rand(1..2.5))
         JSON.parse(response.body)
       rescue RestClient::ExceptionWithResponse => err
         err.response
